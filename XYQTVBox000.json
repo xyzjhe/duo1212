@@ -44,6 +44,13 @@
 	
 	{"key":"csp_qq","name":"🐧┃QQ企鹅php┃test","type":1,"api":"http://tvbox.top/qq.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 
+	{"key": "drpy_js_腾云驾雾1","name": "🐧腾讯┃JS","type": 3, "api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1, "filterable": 0, "ext":"./drpy_js/js/腾云驾雾.js" },
+        {"key": "drpy_js_奇珍异兽1","name": "🥝爱奇艺┃JS", "type": 3, "api":"./drpy_js/libs/drpy2.min.js", "searchable": 1,"quickSearch": 1, "filterable": 0, "ext": "./drpy_js/js/奇珍异兽.js" },
+        {"key": "drpy_js_优酷1", "name": "🆒优酷┃JS", "type": 3, "api": "./drpy_js/libs/drpy2.min.js", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": "./drpy_js/js/优酷.js" },
+        {"key": "drpy_js_百忙无果1", "name": "🥭芒果┃JS", "type": 3,  "api": "./drpy_js/libs/drpy2.min.js", "searchable": 1,  "quickSearch": 1, "filterable": 0,  "./drpy_js/js/百忙无果.js" },
+        {"key": "drpy_js_搜狐1", "name": "🐶搜狐┃JS",  "type": 3,  "api": "./drpy_js/libs/drpy2.min.js", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": "./drpy_js/js/菜狗.js" }, 
+	{"key": "drpy_js_3601", "name": "🌏360影视┃JS",  "type": 3,  "api": "./drpy_js/libs/drpy2.min.js", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext": "./drpy_js/js/360影视.js" },  
+
 	{"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
 	{"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
 		
