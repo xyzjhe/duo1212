@@ -208,19 +208,53 @@
         
         
     ],
+	
     "parses": [
-        //{"name":"Json并发","type":2,"url":"Parallel"},
-        //{"name":"Json轮询","type":2,"url":"Sequence"},
-        //{"name":"解析聚合","type":3,"url":"Demo"},
+        
         {"name":"Web聚合","type":3,"url":"Web"},
-        {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url="},
+
+	{"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url="},
         {"name":"-爱酷-","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
         {"name":"-云解析-","type":0,"url":"https://jx.yparse.com/index.php?url="},
         {"name":"-777-","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url="},
-        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url="}
-        
+        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url="},
+
+	{"name":"腾讯4K","type":1,"url":"http://119.91.31.224:82/txqq.php?url=","ext":{"flag": ["qq","腾讯"]}},
+
+	{"name":"QQ4K","type":1,"url":"http://111.229.142.154/jxtxqq.php?url="},
+
+        {"name":"11","type":1,"url":"http://jx.wogg.link:63/jiexi/饭特析.php?url="},
+        {"name":"22","type":1,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
+        {"name":"33","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
+        {"name":"55","type":1,"url":"http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="},
+        {"name":"77","type":1,"url":"https://jx.ccabc.cc/xc/?key=5567332json&url="},
+        {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
+        {"name":"迷你","type":1,"url":"https://vip.mosangkeji.com/api/?key=afcQ0C7vUiNOy4tnvG&url="},
+       
+        {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
+        {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url="},
+        {"name":"玉米","type":1,"url":"http://42.157.128.109:2323/CH/zy/Yumi.php?url="},
+        {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
+        {"name":"毛毛","type":1,"url":"http://jx.yzmjx.com:2583/api/?key=9145d5a3198fe01b6a45f97bc746c505&url="},
+        {"name":"酷酷","type":1,"url":"http://box.realdou.cn/api/?api_id=4&vod_url=","header":{"user-agent":"okhttp/5.0.0-alpha.10"}},
+        {"name":"探探","type":1,"url":"http://103.146.230.202:6688/api/?key=wzFFqn51SZGkEnm6cG&url="},
+        {"name":"小新","type":1,"url":"http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="},
+   
+        {"name":"🍎|腾爱优芒777|🍎","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+
+        {"name":"嗅探_key521","type":0,"url":"https://json.key521.cn/api/?key=df27d9ca9ec97e22c47f8565a50aa6f5&url="},
+        {"name":"嗅探_jhjson","type":0,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","imgo","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
+   
+        {"name":"嗅探0_a8ys","type":0,"url":"https://p8.a8ys.xyz/player/lgec.php?code=a8ys&from=a8all&key=TYYXG98&pid=239412&psid=7&pnid=1&url="},
+        {"name":"嗅探1_jsonplayer","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+        {"name":"嗅探2_bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url="},
+        {"name":"嗅探3_777jiexi","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+        {"name":"嗅探4_xmflv","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
+        {"name":"嗅探5_m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="}
+	
     ],
+	
     "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
     "rules":[
         {"host":"www.iesdouyin.com","rule":["playwm/?video_id="]},
