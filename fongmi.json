@@ -108,45 +108,10 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$test2$$$test2"
     },
     
-    {
-      "key": "影視",
-      "name": "影視",
-      "type": 3,
-      "api": "csp_YingShi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "星星",
-      "name": "星星",
-      "type": 3,
-      "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "玩偶",
-      "name": "玩偶",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "影視天下第一",
-        "filter": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json"
-      }
-    },
+   
     {
       "key": "獨播",
-      "name": "獨播",
+      "name": "独播",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -155,7 +120,7 @@
     },
     {
       "key": "廠長",
-      "name": "廠長",
+      "name": "厂长",
       "type": 3,
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
       "searchable": 1,
@@ -179,7 +144,7 @@
     },
     {
       "key": "暴風",
-      "name": "暴風",
+      "name": "暴风",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -211,7 +176,7 @@
     },
     {
       "key": "櫻花",
-      "name": "櫻花",
+      "name": "櫻花|动漫",
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
@@ -219,7 +184,7 @@
     },
     {
       "key": "巴士",
-      "name": "巴士",
+      "name": "巴士|动漫",
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
@@ -227,7 +192,7 @@
     },
     {
       "key": "異界",
-      "name": "異界",
+      "name": "異界|动漫",
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
@@ -262,6 +227,32 @@
         "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
       }
     },
+
+     {
+      "key": "影視",
+      "name": "影視",
+      "type": 3,
+      "api": "csp_YingShi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "泥巴",
+      "name": "泥巴",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "星星",
+      "name": "星星",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1
+    },
+	  
     {
       "key": "本地",
       "name": "本地",
@@ -277,7 +268,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/alist.json"
+      "ext": "./json/alist.json"
     },
     {
       "key": "WebDAV",
@@ -286,7 +277,7 @@
       "api": "csp_WebDAV",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
+      "ext": "./json/webdav.json"
     },
    
     {
