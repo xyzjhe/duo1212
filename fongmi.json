@@ -5,6 +5,21 @@
   
   "sites": [
 
+    {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 0},   
+
+    {
+      "key": "玩偶",
+      "name": "🎯玩偶哥哥|4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
+        "filter": "./json/wogg.json"
+      }
+    },
+
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
     {"key":"py_cctv","name":"📺CCTV🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
     {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
@@ -28,6 +43,70 @@
     {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
     {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
+
+    {
+      "key": "七夜",
+      "name": "⚽七夜|4K",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "易搜",
+      "name": "⚾易搜|4K",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "雲搜",
+      "name": "🥎云搜|4K",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "盤搜",
+      "name": "🏀盘搜|4K",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "紙條搜",
+      "name": "🏐纸条搜|4K",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
+      "key": "盤搜索",
+      "name": "🎾盘搜索|4K",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt" 
+    },
+    {
+      "key": "找資源",
+      "name": "🥏找资源|4K",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$test2$$$test2"
+    },
     
     {
       "key": "影視",
@@ -156,7 +235,7 @@
     },
     {
       "key": "哔哩",
-      "name": "哔哩",
+      "name": "🅱️哔哩哔哩🅱️",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -166,21 +245,21 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/bili.json",
-        "type": "帕梅拉#太极拳#广场舞#演唱会",
-        "cookie": ""
+        "json": "./json/bili_FM.json",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
       }
     },
+	  
     {
       "key": "bili_open",
-      "name": "哔哩貓",
+      "name": "🅱️哔哩貓|影视专用🅱️",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
+        "categories": "音乐#动画#电影#电视剧#番剧#综艺#影视#国创#娱乐#游戏#搞笑#单机游戏#沙雕动画#沙雕穿越#沙雕",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
       }
     },
     {
@@ -209,63 +288,7 @@
       "changeable": 0,
       "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
     },
-    {
-      "key": "七夜",
-      "name": "七夜",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "易搜",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "雲搜",
-      "name": "雲搜",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盤搜",
-      "name": "盤搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "紙條搜",
-      "name": "紙條搜",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "盤搜索",
-      "name": "盤搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "找資源",
-      "name": "找資源",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "影視天下第一$$$test2$$$test2"
-    },
+   
     {
       "key": "push_agent",
       "name": "推送",
