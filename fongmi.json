@@ -1,11 +1,11 @@
 {
-  "spider": "./jar/my_FM_custom_spider_0920.jar;md5;1889551634b5fb65c0d0170e7ba34b92",
+  "spider": "./jar/my_FM_custom_spider_0922.jar;md5;cabb91502a7bec09656075747c9186bd",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   
   "sites": [
 
-    {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 0},   
+    {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0},   
 
     {
       "key": "玩偶",
