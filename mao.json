@@ -165,214 +165,214 @@
                 "key": "kkys",
                 "name": "🏓多多丨快看",
                 "type": 3,
-                "api": "kkys_open.js"
+                "api": "./cat/js/kkys_open.js"
             },
             {
                 "key": "mybl",
                 "name": "🏓多多丨哔哩",
                 "type": 3,
-                "api": "mybili_open.js"
+                "api": "./cat/js/mybili_open.js"
             },
             {
                 "key": "wogg",
                 "name": "🏓多多丨玩偶",
                 "type": 3,
-                "api": "wogg_open.js",
+                "api": "./cat/js/wogg_open.js",
                 "ext": "请输入阿里token"
             },
             {
                 "key": "subaibai",
                 "name": "🏓多多丨素白",
                 "type": 3,
-                "api": "subaibai_open.js"
+                "api": "./cat/js/subaibai_open.js"
             },
             {
                 "key": "libvio",
                 "name": "🏓多多丨利奥",
                 "type": 3,
-                "api": "libvio_open.js"
+                "api": "./cat/js/libvio_open.js"
             },
             {
                 "key": "zxzj",
                 "name": "🏓多多丨在线",
                 "type": 3,
-                "api": "zxzj_open.js"
+                "api": "./cat/js/zxzj_open.js"
             },
             {
                 "key": "nangua",
                 "name": "🏓多多丨南瓜",
                 "type": 3,
-                "api": "ng_open.js"
+                "api": "./cat/js/ng_open.js"
             },
             {
                 "key": "cntv",
                 "name": "🏓多多丨央视网",
                 "type": 3,
-                "api": "cntv_open.js"
+                "api": "./cat/js/cntv_open.js"
             },
             {
                 "key": "jisu",
                 "name": "🏓多多丨极速",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/"
             },						
             {
                 "key": "360",
                 "name": "🏓多多丨360",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://caiji.qhzyapi.com/api.php/provide/vod/from/qhm3u8/"
             },			
             {
                 "key": "xinlang",
                 "name": "🏓多多丨新浪",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8"
             },
             {
                 "key": "bdzy",
                 "name": "🏓多多丨百度",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/"
             },
             {
                 "key": "bfzy",
                 "name": "🏓多多丨暴风",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://bfzyapi.com/api.php/provide/vod/"
             },
             {
                 "key": "liangzi",
                 "name": "🏓多多丨量子",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8"
             },	
             {
                 "key": "feifan",
                 "name": "🏓多多丨非凡",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/"
             },			
             {
                 "key": "yingtu",
                 "name": "🏓多多丨影图",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://cj.vodimg.top/api.php/provide/vod/"
             },
             {
                 "key": "guangsuapi",
                 "name": "🏓多多丨光速",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/"
             },			
             {
                 "key": "feisu",
                 "name": "🏓多多丨飞速",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://www.feisuzyapi.com/api.php/provide/vod/from/fsm3u8/"
             },		
             {
                 "key": "ikun",
                 "name": "🏓多多丨爱坤",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://ikunzyapi.com/api.php/provide/vod"
             },
             {
                 "key": "jinying",
                 "name": "🏓多多丨金鹰",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://jinyingzy.com/provide/vod/from/jinyingm3u8/"
             },
             {
                 "key": "kuaiche",
                 "name": "🏓多多丨快车",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/"
             },
             {
                 "key": "taopianapi",
                 "name": "🏓多多丨淘片",
                 "type": 3,
-                "api": "caiji.js",
+                "api": "./cat/js/caiji.js",
                 "ext": "https://taopianapi.com/cjapi/mc10/vod/json.html"
             },			
             {
                 "key": "ubestkid",
                 "name": "🏓多多丨贝乐虎",
                 "type": 3,
-                "api": "ubestkid_open.js"
+                "api": "./cat/js/ubestkid_open.js"
             },
             {
                 "key": "tuxiaobei",
                 "name": "🏓多多丨兔小贝",
                 "type": 3,
-                "api": "tuxiaobei_open.js"
+                "api": "./cat/js/tuxiaobei_open.js"
             },
             {
                 "key": "boosj",
                 "name": "🏓多多丨童趣",
                 "type": 3,
-                "api": "boosj_open.js"
+                "api": "./cat/js/boosj_open.js"
             },
             {
                 "key": "kuqimv",
                 "name": "🏓多多丨酷奇",
                 "type": 3,
-                "api": "kuqimv_open.js"
+                "api": "./cat/js/kuqimv_open.js"
             },
             {
                 "key": "sharenice",
                 "name": "🏓多多丨短视频",
                 "type": 3,
-                "api": "sharenice_open.js"
+                "api": "./cat/js/sharenice_open.js"
             },
             {
                 "key": "dj0898",
                 "name": "🏓多多丨世纪DJ",
                 "type": 3,
-                "api": "dj0898_open.js"
+                "api": "./cat/js/dj0898_open.js"
             },
             {
                 "key": "230ts",
                 "name": "🏓多多丨听书网",
                 "type": 3,
-                "api": "230ts_open.js"
+                "api": "./cat/js/230ts_open.js"
             },
             {
                 "key": "duboku",
                 "name": "✈️多多丨独播①",
                 "type": 3,
-                "api": "duboku_open.js"
+                "api": "./cat/js/duboku_open.js"
             },
             {
                 "key": "duboku2",
                 "name": "✈️多多丨独播②",
                 "type": 3,
-                "api": "duboku2_open.js"
+                "api": "./cat/js/duboku2_open.js"
             },			
             {
                 "key": "mtsp",
                 "name": "🔞多多丨蜜桃",
                 "type": 3,
-                "api": "mtsp_open.js"
+                "api": "./cat/js/mtsp_open.js"
             },
             {
                 "key": "18AV",
                 "name": "🔞多多丨18AV",
                 "type": 3,
-                "api": "18av_open.js"
+                "api": "./cat/js/18av_open.js"
             },
   
 {"key":"230ts","name":"听书 | 爱上你听书","type":3,"api":"./cat/js/230ts_book_open.js"},
