@@ -374,34 +374,30 @@
                 "type": 3,
                 "api": "./cat/js/18av_open.js"
             },
-  
-{"key":"230ts","name":"听书 | 爱上你听书","type":3,"api":"./cat/js/230ts_book_open.js"},
-{"key":"bookan","name":"听书 | 博看听书","type":3,"api":"./cat/js/MyCatBookan.js"},
-{"key":"dj0898","name":"音频 | 世纪DJ","type":3,"api":"./cat/js/dj0898_book_open.js"},
-{"key":"drpy_js_boosj_open","name":"少儿 | 童趣","type":3,"api":"./cat/js/boosj_open.js"},
-{"key":"drpy_js_tuxiaobei_open","name":"少儿 | 兔小贝","type":3,"api":"./cat/js/tuxiaobei_open.js"},
-{"key":"drpy_js_ubestkid_open","name":"少儿 | 贝乐虎","type":3,"api":"./cat/js/ubestkid_open.js"},
-{"key":"sharenice","name":"聚合 | 短视频","type":3,"api":"./cat/js/sharenice_open.js"},
-{"key":"mybili","name":"视频 | 哔哩1","type":3,"api":"./cat/js/mybili_open.js","style":{"type":"rect","ratio":1.597}},
-{"key":"bili_open","name":"视频 | 哔哩2","type":3,"api":"./cat/js/bili_open.js","ext":{"categories":"沙雕动画#沙雕穿越#沙雕","cookie":"http://127.0.0.1:9978/file/tvbox/cookie.txt"},"style":{"type":"rect","ratio":1.597}},
-{"key":"kuqimv","name":"MV | 酷奇","type":3,"api":"./cat/js/kuqimv_open.js"},
-{"key":"drpy_js_cntv_open","name":"电视 | 视聚场","type":3,"api":"./cat/js/cntv_open.js"},
-{"key":"哈喽","name":"影视 | 哈喽","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://www.miniku.cc/xgapp.php/v1/"},
-{"key":"1080dyw","name":"影视 | 视界","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://www.1080dyw.cc/api.php/v1.vod"},
-{"key":"miniku","name":"影视 | 迷你","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://www.miniku.cc/xgapp.php/v1/"},
-{"key":"aidi","name":"影视 | 爱迪","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://api123.adys.app/xgapp.php/v3/"},
-{"key":"yaya","name":"影视 | 鸭鸭","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://yayayaaapp.ynf.icu/api.php/app/"},
-{"key":"kuku","name":"影视 | 酷酷","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://cms.realdou.cn:35264/api.php/app/"},
-{"key":"beijihu","name":"影视 | 极狐","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://www.kuin.one/api.php/app/"},
-{"key":"kuk","name":"影视 | 天堂","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://dytt996.com/api.php/app/"},
-{"key":"kku","name":"影视 | 酷影","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
-{"key":"kuu","name":"影视 | 酷客","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://www.kuin.one/api.php/app/"},
-{"key":"ruidou","name":"影视 | 锐豆","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://ys.realdou.cn:2683/api.php/app/"},
-{"key":"mayi","name":"影视 | 蚂蚁","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://wushutvcms.byzz.top/api.php/app/"},
-{"key":"sukan","name":"影视 | 速看","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://sk100.tv/api.php/app/"},
-{"key":"midi","name":"影视 | 明帝","type":3,"api":"./cat/js/AppYsV2.js","ext":"https://ys.md214.cn/api.php/app/"},
-{"key":"dadou","name":"影视 | 大豆","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://www.dadou.cm/api.php/app/"},
-{"key":"qtw","name":"影视 | 彩虹","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"}
+            {
+                "key": "bookan",
+                "name": "🏓多多丨博看",
+                "type": 3,
+                "api": "./cat/js/bookan_open.js"
+            },
+            {
+                "key": "lbgs",
+                "name": "🏓多多丨老白",
+                "type": 3,
+                "api": "./cat/js/lbgs_open.js"
+            },
+            {
+                "key": "230ts_book",
+                "name": "🏓多多丨爱尚",
+                "type": 3,
+                "api": "./cat/js/230ts_book_open.js"
+            },
+            {
+                "key": "dj0898_book",
+                "name": "🏓多多丨DJ世纪",
+                "type": 3,
+                "api": "./cat/js/dj0898_book_open.js"
+            }
 ],
 "rules":[{"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333"]},{"name":"lz","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"ff","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"bf","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"hs","hosts":["huoshan.com"],"regex":["item_id="]},{"name":"dy","hosts":["douyin.com"],"regex":["is_play_url="]},{"name":"cl","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}]
 }
