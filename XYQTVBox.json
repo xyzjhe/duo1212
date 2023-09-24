@@ -16,9 +16,12 @@
 	
     "sites": [
 
-	{"key":"T4","name":"🅱┃豆瓣荐片┃T4","type":4,"api":"https://t4.secan.icu/vod?sites=all&timeout=10","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
+	{"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},*/   
+        {"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},*/ 
 
+	{"key":"T4","name":"🅱┃豆瓣荐片┃T4","type":4,"api":"https://t4.secan.icu/vod?sites=all&timeout=10","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
         {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
+	    
         {"key":"py_cctv","name":"📺CCTV🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
         {"key": "drpy_js_QQ1","name": "🐧┃企鹅QQ┃4K🐧","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/qq4k.js"}, 
