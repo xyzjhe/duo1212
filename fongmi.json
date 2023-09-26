@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/myFM_0924c.jar;md5;50e4895c76dddd9dea66c4cb9f37fdcb",
+  "spider": "./jar/myFM_0926c.jar;md5;7e600853dc8e97f4db4748f7e5824d3b",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   
@@ -146,6 +146,17 @@
       "searchable": 1,
       "changeable": 1
     },
+
+    {
+      "key": "haiwaikan",
+      "name": "海外看",
+      "type": 1,
+      "api": "https://haiwaikan.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "proxy": true
+    },
+	  
     {
       "key": "暴風",
       "name": "暴风",
@@ -232,31 +243,6 @@
       }
     },
 
-     {
-      "key": "影視",
-      "name": "影視",
-      "type": 3,
-      "api": "csp_YingShi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "星星",
-      "name": "星星",
-      "type": 3,
-      "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1
-    },
-	  
     {
       "key": "本地",
       "name": "本地",
