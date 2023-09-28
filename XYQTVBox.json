@@ -69,21 +69,21 @@
          "key": "腾讯1",
          "name": "🧒腾讯少儿",
          "type": 3,
-         "api":"./drpy_js/libs/drpy2.min.js"
+         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
          "ext":"./drpy_js/js/腾讯少儿.js"
         },
         {
          "key": "芒果1",
          "name": "🧒芒果少儿",
          "type": 3,
-         "api":"./drpy_js/libs/drpy2.min.js"
+         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
          "ext":"./drpy_js/js/忙果少儿.js"
         },
         { 
          "key": "奇艺1",
          "name": "🧒爱艺奇少儿",
          "type": 3,
-         "api":"./drpy_js/libs/drpy2.min.js"
+         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
          "ext":"./drpy_js/js/爱奇艺少儿.js"
         },
         {
@@ -91,13 +91,13 @@
          "name": "🧒优酷少儿",
          "type": 3,
          "api":"./drpy_js/libs/drpy2.min.js"
-         "ext":"./drpy_js/js/优酷少儿.js"
+         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
         },
 	{
          "key": "童趣888",
          "name": "🧒童趣",
          "type": 3,
-         "api":"./drpy_js/libs/drpy2.min.js"
+         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
          "ext":"./drpy_js/js/童趣.js"
         },
 
