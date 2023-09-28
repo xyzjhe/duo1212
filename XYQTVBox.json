@@ -67,31 +67,38 @@
 
         {
          "key": "腾讯1",
-         "name": "♻️腾讯少儿频道",
+         "name": "🧒腾讯少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/腾讯.js"
+         "api":"./drpy_js/libs/drpy2.min.js"
+         "ext":"./drpy_js/js/腾讯少儿.js"
         },
         {
          "key": "芒果1",
-         "name": "♻️芒果少儿频道",
+         "name": "🧒芒果少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/忙果.js"
+         "api":"./drpy_js/libs/drpy2.min.js"
+         "ext":"./drpy_js/js/忙果少儿.js"
         },
         { 
          "key": "奇艺1",
-         "name": "♻️爱艺奇少儿频道",
+         "name": "🧒爱艺奇少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/异兽.js"
+         "api":"./drpy_js/libs/drpy2.min.js"
+         "ext":"./drpy_js/js/爱奇艺少儿.js"
         },
         {
          "key": "优酷1",
-         "name": "♻️优酷少儿频道",
+         "name": "🧒优酷少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/优酷.js"
+         "api":"./drpy_js/libs/drpy2.min.js"
+         "ext":"./drpy_js/js/优酷少儿.js"
+        },
+	{
+         "key": "童趣888",
+         "name": "🧒童趣",
+         "type": 3,
+         "api":"./drpy_js/libs/drpy2.min.js"
+         "ext":"./drpy_js/js/童趣.js"
         },
 
 	{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
