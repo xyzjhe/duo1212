@@ -45,45 +45,50 @@
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
         {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
-	
+	{"key":"drpy_js_360影视","name":"┃🌐360官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/360影视.js"},
+        {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
+        {"key":"drpy_js_百忙无果","name":"🍋芒果官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
+        {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"},
+        {"key":"drpy_yh","name":"👔优酷官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
+        {"key":"drpy_js_菜狗","name":"🐕菜狗官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/菜狗.js"},
 
-	
-        {
+	{"key":"腾讯资源","name":"️🐧腾讯资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":[ "国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+        {"key": "芒果资源","name": "️🥭芒果资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/mgtv/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+        {"key": "爱奇艺资源","name": "️🥝爱奇艺资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+        {"key": "优酷资源","name": "️👔优酷资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+        {"key": "搜狐资源","name": "️🦊搜狐资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+
+	{"key": "索尼","name": "🛸索尼影视","type": 1,"api": "https://suoniapi.com/api.php/provide/vod/?ac=list","playUrl": "","searchable": 1,"quickSearch": 1,"filterable": 1,"categories": ["国产剧","港剧","韩剧","台剧","泰剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","欧美剧","日剧","记录片","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","足球","影视解说","国产动漫"]},
+
+	{
          "key": "腾讯1",
          "name": "🧒腾讯少儿",
          "type": 3,
-         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
-         "ext":"./drpy_js/js/腾讯少儿.js"
+         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
+         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/腾讯.js"
         },
         {
          "key": "芒果1",
          "name": "🧒芒果少儿",
          "type": 3,
-         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
-         "ext":"./drpy_js/js/忙果少儿.js"
+         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
+         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/忙果.js"
         },
         { 
          "key": "奇艺1",
          "name": "🧒爱艺奇少儿",
          "type": 3,
-         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
-         "ext":"./drpy_js/js/爱奇艺少儿.js"
+         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
+         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/异兽.js"
         },
         {
          "key": "优酷1",
          "name": "🧒优酷少儿",
          "type": 3,
-         "api":"./drpy_js/libs/drpy2.min.js"
-         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
+         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
+         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/优酷.js"
         },
-	{
-         "key": "童趣888",
-         "name": "🧒童趣",
-         "type": 3,
-         "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js"
-         "ext":"./drpy_js/js/童趣.js"
-        },
-
+	
 	{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
                 
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
