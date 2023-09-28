@@ -45,6 +45,35 @@
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
         {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
+    {
+      "key": "腾讯1",
+      "name": "♻️腾讯少儿频道",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/腾讯.js"
+    },
+    {
+      "key": "芒果1",
+      "name": "♻️芒果少儿频道",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/忙果.js"
+    },
+    {
+      "key": "奇艺1",
+      "name": "♻️爱艺奇少儿频道",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/异兽.js"
+    },
+    {
+      "key": "优酷1",
+      "name": "♻️优酷少儿频道",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/drpy2.min.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/yydfys/yydf/main/yydf/lib/优酷.js"
+    },
+
 	{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
                 
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
