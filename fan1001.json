@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan1001.jar;md5;698c36a5c29368495f8f552b9fe650cf",
+  "spider": "./jar/fty1002.jar;md5;8960305db3cdfcb9842298cc39959c11",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -38,7 +38,8 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "ext": "https://cz01.cc/"
     },
     {
       "key": "Mino",
@@ -95,10 +96,11 @@
       "name": "🌈迪迪┃App",
       "api": "csp_AppYsV2",
       "type": 3,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://22222.yiyingys.asia/api.php/app/"
+      "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
     {
       "key": "率率",
