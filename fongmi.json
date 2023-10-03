@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/myFM_0927.jar;md5;2fc78d45310b74810273df43adaa6843",
+  "spider": "./jar/myFM_1003.jar;md5;6db44ff47a5a814fba5acb88bc219e9b",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   
@@ -182,10 +182,10 @@
       "changeable": 1
     },
     {
-      "key": "愛看",
-      "name": "愛看",
+      "key": "布雷",
+      "name": "布雷",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/ikanbot_open.js",
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bulei_open.js",
       "searchable": 1,
       "changeable": 1
     },
