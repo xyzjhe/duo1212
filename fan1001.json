@@ -292,7 +292,8 @@
       "type": 3,
       "api": "csp_Qtv",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar":"./jar/fty0928.jar"
     },
     {
       "key": "Itv",
@@ -300,7 +301,8 @@
       "type": 3,
       "api": "csp_Itv",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar":"./jar/fty0928.jar"
     },
     {
       "key": "Mtv",
@@ -308,7 +310,8 @@
       "type": 3,
       "api": "csp_Mtv",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "jar":"./jar/fty0928.jar"
     },
     
     {
