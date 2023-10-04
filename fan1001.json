@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fty1002.jar;md5;8960305db3cdfcb9842298cc39959c11",
+  "spider": "./jar/fty1004.jar;md5;c780fa00cbcc2f49f4e446f225a155e7",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -39,7 +39,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://cz01.cc/"
+      "ext": "https://www.cz01.pro/"
     },
     {
       "key": "Mino",
@@ -50,16 +50,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "|mcjJlcmV6VXF4a2pwMUMzbG1JcUJ0THpscW9YaE5MaDd8aHR0cDovL2Ntcy5rdWJveXMudG9wL2FwcHRvL3Yx"
-    },
-    {
-      "key": "追忆",
-      "name": "✌追忆┃App",
-      "type": 3,
-      "api": "csp_Appto",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "|NZWNwN0ZXZE02WTRreHpXY2ZmNjJwY0RjWGlZN2ZmQWF8aHR0cDovLzIyMi4yMTEuNzMuMTU3OjExMjIvYXBwdG8vdjE"
     },
     {
       "key": "毛驴",
@@ -102,6 +92,9 @@
       "changeable": 1,
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
+
+    {"key":"酷酷","name":"💥酷酷┃App","type":3,"api":"./JS/lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://smallmi.xiaohewanwan.love:63/ky.js"},
+    
     {
       "key": "率率",
       "name": "💡率率┃直连",
@@ -189,6 +182,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
+      "timeout": 30,
       "ext": "vip.lyyytv.cn"
     },
     {
@@ -739,7 +733,7 @@
     {
       "name": "全部",
       "type": 1,
-      "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
+      "url": "https://api.json.icu/api/?key=4f8fb5042b695d5c515f6343af716af8&url="
     },
     {
       "name": "来自",
@@ -749,7 +743,7 @@
     {
       "name": "网络",
       "type": 1,
-      "url": "http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="
+      "url": "http://119.91.123.253:1234/Api/cs.php?url="
     },
     {
       "name": "大家",
