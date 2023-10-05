@@ -23,7 +23,39 @@
         "filter": "./json/wogg.json"
       }
     },
-    
+
+        {
+         "key": "csp_wogg_cli",
+         "name": "玩偶[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/csp_Wogg",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+         "timeout": 30
+        },
+        {
+         "key": "小纸条_cli",
+         "name": "纸条[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+         "timeout": 30
+        },
+        {
+         "key": "荐片_cli",
+         "name": "荐片[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/csp_JP",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "timeout": 30
+        },
     
     {"key":"py_cctv","name":"📺CCTV🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
     {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
