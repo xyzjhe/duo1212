@@ -33,6 +33,39 @@
         {"key":"me_360","name":"🌏┃360php┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/360kan","searchable":1,"quickSearch":1, "filterable":1},
 
 	{
+         "key": "csp_wogg_cli",
+         "name": "玩偶[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/csp_Wogg",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+         "timeout": 30
+        },
+        {
+         "key": "小纸条_cli",
+         "name": "纸条[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
+         "timeout": 30
+        },
+        {
+         "key": "荐片_cli",
+         "name": "荐片[T4]",
+         "type": 4,
+         "api": "http://home.jundie.top:9520/spider/csp_JP",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "timeout": 30
+        },
+
+	{
          "key": "优酷",
          "name": "🧂┃优酷┃解析",
          "type": 3,
