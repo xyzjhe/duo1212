@@ -100,28 +100,28 @@
          "name": "🧒腾讯少儿",
          "type": 3,
          "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/腾讯.js"
+         "ext": "./drpy_js/js/腾讯少儿.js"
         },
         {
          "key": "芒果1",
          "name": "🧒芒果少儿",
          "type": 3,
          "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/忙果.js"
+         "ext": "./drpy_js/js/忙果少儿.js"
         },
         { 
          "key": "奇艺1",
          "name": "🧒爱艺奇少儿",
          "type": 3,
          "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/异兽.js"
+         "ext": "./drpy_js/js/爱艺奇少儿.js"
         },
         {
          "key": "优酷1",
          "name": "🧒优酷少儿",
          "type": 3,
          "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/优酷.js"
+         "ext": "./drpy_js/js/优酷少儿.js"
         },
         {
          "key": "童趣",
