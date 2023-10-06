@@ -17,6 +17,11 @@
     {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},   
     {"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"}, 
 
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
+    {"key":"豆豆","name":"🅱豆瓣热搜🅱","type": 3, "api": "csp_DouDou","searchable": 1,"quickSearch": 1,"filterable": 1},
+
+    {"key":"csp_WoGG","name":"👽玩偶哥哥┃4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+
         {
          "key": "csp_wogg_cli",
          "name": "玩偶[T4]",
@@ -50,13 +55,9 @@
          "timeout": 30
         },
 	  
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
-
-    {"key":"豆豆","name":"🅱豆瓣热搜🅱","type": 3, "api": "csp_DouDou","searchable": 1,"quickSearch": 1,"filterable": 1},
-
-    {"key":"csp_WoGG","name":"👽玩偶哥哥┃4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-  
     {"key":"py_cctv","name":"📺CCTV🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
+    {"key":"py_m1905","name":"📺M1905🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
+	  
     {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
 	
     {"key": "drpy_js_QQ1","name": "🐧┃企鹅QQ┃4K🐧","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/qq4k.js"}, 
@@ -87,47 +88,47 @@
         {"key":"drpy_yh","name":"👔优酷官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
         {"key":"drpy_js_菜狗","name":"🐕菜狗官源","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/菜狗.js"},
 
-	      {"key":"腾讯资源","name":"️🐧腾讯资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":[ "国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
+	{"key":"腾讯资源","name":"️🐧腾讯资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":[ "国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
         {"key": "芒果资源","name": "️🥭芒果资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/mgtv/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
         {"key": "爱奇艺资源","name": "️🥝爱奇艺资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
         {"key": "优酷资源","name": "️👔优酷资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
         {"key": "搜狐资源","name": "️🦊搜狐资源","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
 
 	
-	     {
+	{
          "key": "腾讯1",
          "name": "🧒腾讯少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/腾讯.js"
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/腾讯.js"
         },
         {
          "key": "芒果1",
          "name": "🧒芒果少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/忙果.js"
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/忙果.js"
         },
         { 
          "key": "奇艺1",
          "name": "🧒爱艺奇少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/异兽.js"
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/异兽.js"
         },
         {
          "key": "优酷1",
          "name": "🧒优酷少儿",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/优酷.js"
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/优酷.js"
         },
         {
          "key": "童趣",
          "name": "🧒童趣",
          "type": 3,
-         "api": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/drpy2.min.js",
-         "ext": "https://ghproxy.net/https://raw.githubusercontent.com/xyzjhe/yyyyy/main/yydf/lib/童趣.js"
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/童趣.js"
         },
     
     
@@ -171,16 +172,10 @@
       "changeable": 1,
       "ext": "https://www.maolvys.com/"
     },
-    {
-      "key": "橘子",
-      "name": "🍊橘子┃直连",
-      "type": 3,
-      "api": "csp_Appto",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "pB8fV1o5fODylO5AtO8tvf0F1lRBzZhIb0ydyOYoUZ69DpfdeG0oDdRtFLkWxpHU9kWB67yp98N%2FQRMqmBFfDAyox2BUH5%2BexjgENSd4e28Pxi%2B5t01guq9FdjMXODf8IiUY1tJcNlEWeTAdGho%2BjA%3D%3D|BTmtwQlNQQ05OQXdYMktjZWNtd1lNakdKYkNQYjVZcll8aHR0cDovLzExOS4xMDEuMTQ4LjM6MjUyNS9hcHB0by92MQ"
-    },
+	  
+    {"key":"橘子","name":"🍊橘子┃App","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"changeable":1,"ext":"pB8fV1o5fODylO5AtO8tvf0F1lRBzZhIb0ydyOYoUZ69DpfdeG0oDdRtFLkWxpHU9kWB67yp98N%2FQRMqmBFfDAyox2BUH5%2BexjgENSd4e28Pxi%2B5t01guq9FdjMXODf8IiUY1tJcNlEWeTAdGho%2BjA%3D%3D|BTmtwQlNQQ05OQXdYMktjZWNtd1lNakdKYkNQYjVZcll8aHR0cDovLzExOS4xMDEuMTQ4LjM6MjUyNS9hcHB0by92MQ"},
+    {"key":"布雷","name":"💥布雷┃App","type":3,"api":"csp_Appto","playerType":2,"ext":"VmFIZ%2BKCSW%2FfudthUQAhFThUBIjrjzM9FhQ9ltb5OkOZwS5t5apI%2Fl5aD1jfpTFMapmCeCVT1KbO2DB25TEQsNr7mxtNhIZHKijji10lqetyAK%2F4Ua5pO1zpAILY3VhMRNW0aH5OdWT24ufPDTR0fg%3D%3D|KMjRRRTJyY0JKald3RWFFOFB3RnlBZU1QUm1DaVRCcnR8aHR0cDovLzIyMi4xMzQuMC4xNzE6MTU2OC9hcHB0by92MQ"},
+    
     {
       "key": "蚂蚁",
       "name": "🐜蚂蚁┃直连",
@@ -202,9 +197,7 @@
       "changeable": 1,
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
-
-    {"key":"酷酷","name":"💥酷酷┃App","type":3,"api":"./JS/lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://smallmi.xiaohewanwan.love:63/ky.js"},
-    
+  
     {
       "key": "Xinsj",
       "name": "👓视觉┃直连",
