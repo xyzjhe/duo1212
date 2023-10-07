@@ -32,7 +32,7 @@
          "searchable": 1,
          "changeable": 0,
          "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" },
-	 "jar": "./jar/myFM1003.jar" 
+	 "jar": "./jar/myFM_1003.jar" 
          },
 
 	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
