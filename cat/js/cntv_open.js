@@ -27,6 +27,12 @@ async function home(filter) {
 		type_id: "TOPC1451528971114112",
 		type_name: "新闻联播"
 	},
+
+	
+	{
+		type_id: "TOPC1451532939300997",
+		type_name: "回家吃饭"
+	},	
 	 {
 		type_id: "TOPC1451538759798817",
 		type_name: "一槌定音"
