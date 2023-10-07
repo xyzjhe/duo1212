@@ -1,11 +1,12 @@
-import { _ } from "assets://js/lib/cat.js";
-let key = '我的哔哩';
+import { _ } from "./lib/cat.js";
+let key = '';
+let homeName = '';
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 // let cookie = "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"; // 可更换成自己的cookie
-let cookie = "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"; // 可更换成自己的cookie
+let cookie = "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"; // 可更换成自己的cookie
 
 async function request(reqUrl) {
   const res = await req(reqUrl, {
@@ -63,17 +64,16 @@ async function home(filter) {
       filters: filterObj,
   });
 }
-
 async function homeVod() {
-  let html = HOST + '/x/web-interface/popular?ps=20';
-  let data = JSON.parse(await request(html)).data.list;
+  let html = HOST + '/x/web-interface/search/type?search_type=video&keyword='+homeName;
+  let data = JSON.parse(await request(html)).data.result;
   let videos = [];
   data.forEach(function(it) {
       videos.push({
           vod_id: it.aid,
           vod_name: stripHtmlTag(it.title),
-          vod_pic: it.pic,
-          vod_remarks: '🔥 ' + it.vt_display || '',
+          vod_pic: 'http:'+it.pic,
+          vod_remarks: turnDHM(it.duration) || '',
       });
   });
   return JSON.stringify({
@@ -124,7 +124,7 @@ async function detail(id) {
     )
   });
   let playUrl = playurls.join('#');
-  vod.vod_play_from = '道长在线';
+  vod.vod_play_from = 'B站';
   vod.vod_play_url = playUrl;
   return JSON.stringify({
     list: [vod],
