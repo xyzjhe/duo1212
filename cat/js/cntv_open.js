@@ -28,6 +28,20 @@ async function home(filter) {
 		type_name: "新闻联播"
 	},
 
+	{
+		type_id: "TOPC1451533782742171",
+		type_name: "经济信息联播"
+	},
+
+	{
+		type_id: "TOPC1451541349400938",
+		type_name: "远方的家"
+	},
+
+	{
+		type_id: "TOPC1601362002656197",
+		type_name: "经济半小时"
+	},
 	
 	{
 		type_id: "TOPC1451532939300997",
@@ -145,10 +159,7 @@ async function home(filter) {
 		type_id: "TOPC1451557421544786",
 		type_name: "地理·中国"
 	},
-	 {
-		type_id: "TOPC1451541349400938",
-		type_name: "远方的家"
-	},
+	 
 	 {
 		type_id: "TOPC1451558150787467",
 		type_name: "自然传奇"
@@ -269,10 +280,7 @@ async function home(filter) {
 		type_id: "TOPC1451559180488841",
 		type_name: "新闻周刊"
 	},
-	 {
-		type_id: "TOPC1601362002656197",
-		type_name: "经济半小时"
-	},
+	 
 	 {
 		type_id: "TOPC1451533652476962",
 		type_name: "经济大讲堂"
@@ -293,10 +301,7 @@ async function home(filter) {
 		type_id: "TOPC1451558532019883",
 		type_name: "东方时空"
 	},
-	 {
-		type_id: "TOPC1451533782742171",
-		type_name: "经济信息联播"
-	},
+	 
 	 {
 		type_id: "TOPC1571034705435323",
 		type_name: "今日环球"
