@@ -47,6 +47,8 @@
 
 	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js", "jar": "./jar/my_FM1003.jar"},
         {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js",  "jar": "./jar/my_FM1003.jar"},
+
+	{"key": "cntv-1","name": " CCTV|maoJS", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
 	  
        {
          "key": "csp_wogg_cli",
