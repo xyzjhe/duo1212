@@ -100,11 +100,6 @@
     {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
     {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 	  
-    
-	
-    
- 
- 
     {"key":"me_qq","name":"🐧┃企鹅php┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1, "filterable":1},
     {"key":"me_iqiyi","name":"🥝┃AI奇艺php┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/iqiyi","searchable":1,"quickSearch":1, "filterable":1},
     {"key": "sohu","name": "🐶┃搜狐php┃test", "type": 1,"playerType": 2,"api": "http://tvbox-1-g5221611.deta.app/vod/sohu","searchable": 1,"quickSearch": 1 },
@@ -113,17 +108,15 @@
     {"key":"csp_qq","name":"🐧┃QQ企鹅php┃test","type":1,"api":"http://tvbox.top/qq.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 
     {
-         "key": "优酷",
-         "name": "🧂┃优酷hccx┃解析",
-         "type": 3,
-         "api": "csp_YOUKU",
-         "searchable": 1,
-         "filterable": 1,
-         "changeable": 1,
-         "jar": "./jar/hccx.jar"
-        },
-
-    
+     "key": "优酷",
+     "name": "🧂┃优酷hccx┃解析",
+     "type": 3,
+     "api": "csp_YOUKU",
+     "searchable": 1,
+     "filterable": 1,
+     "changeable": 1,
+     "jar": "./jar/hccx.jar"
+     },
 
     {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/360影视.js"},
     {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
