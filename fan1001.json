@@ -30,7 +30,7 @@
 	        "jar": "./jar/myFM_1003.jar" 
          },
 
-	       { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
+	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
         { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
         { "key": "js_哔哩纪录片1","name": "🅱️┃哔哩js┃哔哩纪录片1", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":  "./drpy_js/js/纪录片1.js"},
@@ -40,12 +40,12 @@
         { "key": "js_相声小品","name": "🅱️┃哔哩js┃相声小品", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/相声小品.js"},
         { "key": "js_戏曲大全","name": "🅱️┃哔哩js┃戏曲大全", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/戏曲大全.js"},
 
-	       {"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js", "jar": "./jar/my_FM1003.jar"},
+	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js", "jar": "./jar/my_FM1003.jar"},
         {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js",  "jar": "./jar/my_FM1003.jar"},
 
-	       {"key": "cntv-1","name": "🌎CCTV|maoJS🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
+	{"key": "cntv-1","name": "🌎CCTV|maoJS🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
 
-	       {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
+	{"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
 	    
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
