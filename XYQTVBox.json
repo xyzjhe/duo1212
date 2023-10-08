@@ -16,12 +16,13 @@
 	
     "sites": [
 
+      /*{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},*/  
+      /*{"key": "QQ2k","name": "🐧腾讯视频2K_test", "type": 1, "playerType": 2, "api": "http://tvbox-1-g5221611.deta.app/vod/qq", "playUrl": "json:http://221.229.173.30:8808/jhjson/daoyongsiquanjia.php?url="},*/    
+
 	{"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},  
         {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 	
-      /*{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0, "jar": "./jar/douban.jar;md5;88f30019e7618e8dd5e6459ec4ae8bef"},*/  
-
-	{"key":"阿里云盘登录","name":"云盘｜登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+        {"key":"阿里云盘登录","name":"云盘｜登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 	{"key":"玩偶弹幕","name":"弹幕｜玩偶","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"filter":"./json/wogg.json","danmu":true,"token":"http://127.0.0.1:9978/file/tvbox/token.txt"}},
 
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
@@ -51,7 +52,7 @@
 	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js", "jar": "./jar/my_FM1003.jar"},
         {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js",  "jar": "./jar/my_FM1003.jar"},
 
-	{"key": "cntv-1","name": " CCTV|maoJS", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
+	{"key": "cntv-1","name": "🌎CCTV|maoJS", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
 
 	{
          "key": "csp_wogg_cli",
@@ -87,14 +88,13 @@
         },
 	  
     {"key":"py_cctv","name":"📺CCTV🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
-    {"key":"py_m1905","name":"📺M1905🌎","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
+    {"key":"py_m1905","name":"🌎M1905📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
 	  
     {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
 	
     {"key": "drpy_js_QQ1","name": "🐧┃企鹅QQ┃4K🐧","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/qq4k.js"}, 
  
-  /*{"key": "QQ2k","name": "🐧腾讯视频2K_test", "type": 1, "playerType": 2, "api": "http://tvbox-1-g5221611.deta.app/vod/qq", "playUrl": "json:http://221.229.173.30:8808/jhjson/daoyongsiquanjia.php?url="},*/    
-
+ 
     {"key":"me_qq","name":"🐧┃企鹅php┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1, "filterable":1},
     {"key":"me_iqiyi","name":"🥝┃AI奇艺php┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/iqiyi","searchable":1,"quickSearch":1, "filterable":1},
     {"key": "sohu","name": "🐶┃搜狐php┃test", "type": 1,"playerType": 2,"api": "http://tvbox-1-g5221611.deta.app/vod/sohu","searchable": 1,"quickSearch": 1 },
