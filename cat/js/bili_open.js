@@ -1,19 +1,17 @@
-import { Crypto, jinja2, _ } from 'assets://lib/cat.js';
+import { Crypto, _ } from './lib/cat.js';
 
 let siteKey = '';
 let siteType = 0;
 
 let cookie = '';
 let login = '';
-let vip = false;
+let vip = '';
 let extendObj = {};
-let bili_jct = '';
 let vod_audio_id = {
     30280: 192000,
     30232: 132000,
     30216: 64000,
 };
-
 let vod_codec = {
     // 13: 'AV1',
     12: 'HEVC',
@@ -22,23 +20,11 @@ let vod_codec = {
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36';
 
-async function request(reqUrl, ua, buffer) {
+async function request(reqUrl, ua) {
     let res = await req(reqUrl, {
         method: 'get',
         headers: ua ? ua : { 'User-Agent': UA },
         timeout: 60000,
-        buffer: buffer ? 1 : 0,
-    });
-    return res.content;
-}
-
-async function post(reqUrl, postData, ua, posttype) {
-    let res = await req(reqUrl, {
-        method: 'post',
-        headers: ua ? ua : { 'User-Agent': UA },
-        data: postData,
-        timeout: 60000,
-        postType: posttype,
     });
     return res.content;
 }
@@ -67,21 +53,12 @@ async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype;
     let extend = cfg.ext;
-
     if (cfg.ext.hasOwnProperty('categories')) extend = cfg.ext.categories;
     if (cfg.ext.hasOwnProperty('cookie')) cookie = cfg.ext.cookie;
-    // 获取csrf
-    const cookies = cookie.split(';');
-    cookies.forEach(cookie => {
-        if (cookie.includes('bili_jct')) {
-            bili_jct = cookie.split('=')[1];
-        }
-    });
-
     if (_.isEmpty(cookie)) await getCookie();
     let result = JSON.parse(await request('https://api.bilibili.com/x/web-interface/nav', getHeaders()));
     login = result.data.isLogin;
-    vip = result.data.vipStatus;
+    vip = result.data.hasOwnProperty('vipStatus');
     const ext = extend.split('#');
     const jsonData = [
         {
@@ -109,31 +86,15 @@ async function init(cfg) {
     ];
     const newarr = [];
     const d = {};
-    const sc = {
-        type_name: "首页",
-        type_id: "首页",
-        land: 1,
-        ratio: 1.33,
-    }
-    newarr.push(sc);
     for (const kk of ext) {
         const c = {
             type_name: kk,
             type_id: kk,
             land: 1,
-            ratio: 1.33,
+            ratio: 1.78,
         };
         newarr.push(c);
         d[kk] = jsonData;
-    }
-    if (!_.isEmpty(bili_jct)) {
-        const hc = {
-            type_name: "历史记录",
-            type_id: "历史记录",
-            land: 1,
-            ratio: 1.33,
-        }
-        newarr.push(hc);
     }
     extendObj = {
         classes: newarr,
@@ -158,11 +119,12 @@ function home(filter) {
 async function homeVod() {
     try {
         const list = [];
-        const url = 'https://api.bilibili.com/x/web-interface/index/top/rcmd?ps=14&fresh_idx=1&fresh_idx_1h=1';
+        const type_id = extendObj.classes[0].type_id;
+        const url = `https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=${type_id}&duration=4`;
 
         const response = await request(url, getHeaders());
         const responseData = JSON.parse(response);
-        const vods = responseData.data.item;
+        const vods = responseData.data.result;
 
         for (const item of vods) {
             const vod = {};
@@ -170,22 +132,17 @@ async function homeVod() {
             if (imageUrl.startsWith('//')) {
                 imageUrl = 'https:' + imageUrl;
             }
-            let cd = getFullTime(item.duration);
 
             vod.vod_id = item.bvid;
             vod.vod_name = removeTags(item.title);
             vod.vod_pic = imageUrl;
-            vod.vod_remarks = cd;
-            vod.style = {
-                type: 'rect',
-                ratio: 1.33,
-            },
-                list.push(vod);
+            vod.vod_remarks = item.duration.split(':')[0] + '分钟';
+            list.push(vod);
         }
 
         const result = { list: list };
         return JSON.stringify(result);
-    } catch (e) { }
+    } catch (e) {}
 }
 
 async function category(tid, page, filter, ext) {
@@ -194,8 +151,7 @@ async function category(tid, page, filter, ext) {
         if (Object.keys(ext).length > 0 && ext.hasOwnProperty('tid') && ext['tid'].length > 0) {
             tid = ext['tid'];
         }
-        let url = '';
-        url = `https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=${encodeURIComponent(tid)}`;
+        let url = `https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=${encodeURIComponent(tid)}`;
 
         if (Object.keys(ext).length > 0) {
             for (const k in ext) {
@@ -208,72 +164,52 @@ async function category(tid, page, filter, ext) {
 
         url += `&page=${encodeURIComponent(page)}`;
 
-        if (tid == "首页") {
-            url = "https://api.bilibili.com/x/web-interface/index/top/rcmd?ps=14&fresh_idx=" + page + "&fresh_idx_1h=" + page;
-        } else if (tid == "历史记录") {
-            url = "https://api.bilibili.com/x/v2/history?pn=" + page;
-        }
+        const response = await request(url, getHeaders());
 
-        const data = JSON.parse(await request(url, getHeaders())).data;
-        let items = data.result;
-        if (tid == "首页") {
-            items = data.item;
-        } else if (tid == "历史记录") {
-            items = data;
-        }
+        const resp = JSON.parse(response);
+        const data = resp.data;
 
         const videos = [];
+        const items = data.result;
+
         for (const item of items) {
             const video = {};
             let pic = item.pic;
             if (pic.startsWith('//')) {
                 pic = 'https:' + pic;
             }
-            let cd = getFullTime(item.duration);
 
-            video.vod_remarks = cd;
             video.vod_id = item.bvid;
             video.vod_name = removeTags(item.title);
             video.vod_pic = pic;
-
-            video.style = {
-                type: 'rect',
-                ratio: 1.33,
-            },
-                videos.push(video);
+            video.vod_remarks = item.duration.split(':')[0] + '分钟';
+            videos.push(video);
         }
 
         const result = {
             page: page,
-            pagecount: data.numPages ?? (page + 1),
-            limit: videos.length,
-            total: videos.length * (page + 1),
+            pagecount: data.numPages,
+            limit: data.pagesize,
+            total: data.numResults,
             list: videos,
         };
 
         return JSON.stringify(result);
-    } catch (e) { }
+    } catch (e) {}
     return null;
 }
 
 async function detail(ids) {
     try {
         const bvid = ids;
-        const detailUrl = `https://api.bilibili.com/x/web-interface/view?bvid=${bvid}`;
+        const bvid2aidUrl = `https://api.bilibili.com/x/web-interface/archive/stat?bvid=${bvid}`;
 
+        const bvid2aidResp = JSON.parse(await request(bvid2aidUrl, getHeaders()));
+
+        const aid = bvid2aidResp.data.aid + '';
+        const detailUrl = `https://api.bilibili.com/x/web-interface/view?aid=${aid}`;
         const detailData = JSON.parse(await request(detailUrl, getHeaders())).data;
-        // 记录历史
-        if (!_.isEmpty(bili_jct)) {
-            const historyReport = 'https://api.bilibili.com/x/v2/history/report';
-            let dataPost = {
-                aid: detailData.aid,
-                cid: detailData.cid,
-                csrf: bili_jct,
-            }
-            await post(historyReport, dataPost, getHeaders(), 'form');
-        }
-        let cd = getFullTime(detailData.duration);
-        const aid = detailData.aid;
+
         const video = {
             vod_id: bvid,
             vod_name: detailData.title,
@@ -281,7 +217,7 @@ async function detail(ids) {
             type_name: detailData.tname,
             vod_year: '',
             vod_area: '',
-            vod_remarks: cd,
+            vod_remarks: `${Math.floor(detailData.duration / 60)}分钟`,
             vod_actor: '',
             vod_director: '',
             vod_content: detailData.desc,
@@ -291,55 +227,40 @@ async function detail(ids) {
         const playurldatas = JSON.parse(await request(playurldata, getHeaders()));
 
         const playurldatalist = playurldatas.data;
+        const a = playurldatalist.accept_description;
         const accept_quality = playurldatalist.accept_quality;
-        const accept_description = playurldatalist.accept_description;
-        const qualitylist = [];
-        const descriptionList = [];
+        const Aq = [];
+        const pFrom = [];
 
         for (let i = 0; i < accept_quality.length; i++) {
-            if (!vip) {
-                if (!login) {
-                    if (accept_quality[i] > 32) continue;
-                } else {
-                    if (accept_quality[i] > 80) continue;
-                }
+            if (!login) {
+                if (accept_quality[i] > 32) continue;
+            } else if (!vip && login) {
+                if (accept_quality[i] > 80) continue;
+            } else {
+                if (accept_quality[i] > 32) continue;
             }
-            descriptionList.push(base64Encode(accept_description[i]));
-            qualitylist.push(accept_quality[i]);
+            pFrom.push(a[i]);
+            Aq.push(accept_quality[i]);
         }
 
-        let treeMap = {};
         const jSONArray = detailData.pages;
-        let playList = [];
+        const playList = [];
         for (let j = 0; j < jSONArray.length; j++) {
             const jSONObject6 = jSONArray[j];
-            const cid = jSONObject6.cid;
-            const playUrl = j + '$' + aid + '+' + cid + '+' + qualitylist.join(':') + '+' + descriptionList.join(':');
+            const j2 = jSONObject6.cid;
+            const playUrl = j + '$' + aid + '+' + j2 + '+' + Aq.join(':') + '+' + pFrom.join(':');
             playList.push(playUrl);
         }
-        treeMap['dash'] = playList.join('#');
-        treeMap['mp4'] = playList.join('#');
 
-        const relatedUrl = 'https://api.bilibili.com/x/web-interface/archive/related?bvid=' + bvid;
-        const relatedData = JSON.parse(await request(relatedUrl, getHeaders())).data;
-        playList = [];
-        for (let j = 0; j < relatedData.length; j++) {
-            const jSONObject6 = relatedData[j];
-            const cid = jSONObject6.cid;
-            const title = jSONObject6.title;
-            const aaid = jSONObject6.aid;
-            const playUrl = title + '$' + aaid + '+' + cid + '+' + qualitylist.join(':') + '+' + descriptionList.join(':');
-            playList.push(playUrl);
-        }
-        treeMap['相关'] = playList.join('#');
-
-        video.vod_play_from = Object.keys(treeMap).join("$$$");
-        video.vod_play_url = Object.values(treeMap).join("$$$");
+        video.vod_play_from = 'external$$$dash$$$mp4';
+        video.vod_play_url = playList.join('#');
+        video.vod_play_url = [video.vod_play_url, video.vod_play_url, video.vod_play_url].join('$$$');
 
         const list = [video];
         const result = { list };
         return JSON.stringify(result);
-    } catch (e) { }
+    } catch (e) {}
     return null;
 }
 
@@ -351,18 +272,16 @@ async function play(flag, id, flags) {
         const cid = ids[1];
         const qualityIds = ids[2].split(':');
         const qualityName = ids[3].split(':');
-        const dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
-        if (flag == 'dash' || flag == '相关') {
+        if (flag == 'dash') {
             // dash mpd 代理
             const js2Base = await js2Proxy(true, siteType, siteKey, 'dash/', {});
             let urls = [];
             for (let i = 0; i < qualityIds.length; i++) {
-                urls.push(base64Decode(qualityName[i]), js2Base + base64Encode(aid + '+' + cid + '+' + qualityIds[i]));
+                urls.push(qualityName[i], js2Base + base64Encode(aid + '+' + cid + '+' + qualityIds[i]));
             }
             return JSON.stringify({
                 parse: 0,
                 url: urls,
-                danmaku: dan,
                 header: playHeaders,
             });
         } else if (flag == 'mp4') {
@@ -374,13 +293,12 @@ async function play(flag, id, flags) {
                 const data = resp.data;
                 if (data.quality != qualityIds[i]) continue;
                 let durl = data.durl[0].url;
-                urls.push(base64Decode(qualityName[i]), durl);
+                urls.push(qualityName[i], durl);
             }
 
             return JSON.stringify({
                 parse: 0,
                 url: urls,
-                danmaku: dan,
                 header: playHeaders,
             });
         } else {
@@ -398,7 +316,7 @@ async function play(flag, id, flags) {
                     if (dashjson.id == qualityIds[i]) {
                         for (const key in vod_codec) {
                             if (dashjson.codecid == key) {
-                                urls.push(base64Decode(qualityName[i]) + ' ' + vod_codec[key], dashjson.baseUrl);
+                                urls.push(qualityName[i] + ' ' + vod_codec[key], dashjson.baseUrl);
                             }
                         }
                     }
@@ -429,7 +347,7 @@ async function play(flag, id, flags) {
                 header: playHeaders,
             });
         }
-    } catch (e) { }
+    } catch (e) {}
     return null;
 }
 
@@ -438,7 +356,7 @@ async function search(key, quick, pg) {
     if (page == 0) page = 1;
     try {
         const ext = {
-            duration: '0',
+            duration: '4',
         };
         let resp = JSON.parse(await category(key, page, true, ext));
         const catVideos = resp.list;
@@ -451,11 +369,11 @@ async function search(key, quick, pg) {
             page: page,
             pagecount: pageCount,
             land: 1,
-            ratio: 1.33,
+            ratio: 1.78,
             list: videos,
         };
         return JSON.stringify(result);
-    } catch (e) { }
+    } catch (e) {}
     return null;
 }
 
@@ -495,7 +413,6 @@ async function proxy(segments, headers) {
         }
 
         let mpd = getDash(resp, videoList, audioList);
-
         return JSON.stringify({
             code: 200,
             content: mpd,
@@ -565,7 +482,6 @@ function getDash(ja, videoList, audioList) {
     </MPD>`;
 }
 
-
 function base64Encode(text) {
     return Crypto.enc.Base64.stringify(Crypto.enc.Utf8.parse(text));
 }
@@ -574,36 +490,8 @@ function base64Decode(text) {
     return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text));
 }
 
-
-
 function removeTags(input) {
     return input.replace(/<[^>]*>/g, '');
-}
-
-function getFullTime(numberSec) {
-    let totalSeconds = '';
-    try {
-        var timeParts = numberSec.split(":");
-        var min = parseInt(timeParts[0]);
-        var sec = parseInt(timeParts[1]);  
-        totalSeconds = min * 60 + sec;        
-    } catch (e) {
-        totalSeconds = parseInt(numberSec);
-    }
-    if (isNaN(totalSeconds)) {
-        return '无效输入';
-    }
-    if (totalSeconds >= 3600) {
-        const hours = Math.floor(totalSeconds / 3600);
-        const remainingSecondsAfterHours = totalSeconds % 3600;
-        const minutes = Math.floor(remainingSecondsAfterHours / 60);
-        const seconds = remainingSecondsAfterHours % 60;
-        return `${hours}小时 ${minutes}分钟 ${seconds}秒`;
-    } else {
-        const minutes = Math.floor(totalSeconds / 60);
-        const seconds = totalSeconds % 60;
-        return `${minutes}分钟 ${seconds}秒`;
-    }
 }
 
 export function __jsEvalReturn() {
@@ -618,4 +506,3 @@ export function __jsEvalReturn() {
         search: search,
     };
 }
-
