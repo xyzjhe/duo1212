@@ -24,6 +24,18 @@
     },
 
     {
+     "key":"py_bili15",
+     "name":"🅱️┃哔哩PY_5】┃4K🅱️",
+     "type":3,
+     "api":"py_bili15",
+     "style":{ "type":"rect", "ratio":1.33 },
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "ext":"./py/py_bilibili5.py"
+    },
+
+    {
       "key": "bili_open",
       "name": "🅱️哔哩貓|影视专用🅱️",
       "type": 3,
