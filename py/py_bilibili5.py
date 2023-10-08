@@ -21,7 +21,7 @@ class Spider(Spider):
     defaultConfig = {
         'currentVersion': "20231003_1",
         #【建议通过扫码确认】设置Cookie，在双引号内填写
-        'raw_cookie_line': "buvid3=5A7DF58C-14D6-23C1-BE29-31D9E9578C2997581infoc; b_nut=1683970697; CURRENT_FNVAL=4048; _uuid=F6EC89FA-83F6-2531-D341-349E26395CC798083infoc; buvid4=C77042B4-6C2D-C24A-0F86-E0A4B7E253A698377-023051317-ztKcD%2BAh2fSUh5SCSJ6FIQ%3D%3D; rpdid=|(YYR|mmYJ~0J'uY)Jm~|~||; i-wanna-go-back=-1; FEED_LIVE_VERSION=V8; header_theme_version=CLOSE; DedeUserID=29803158; DedeUserID__ckMd5=1a97fc9755184b19; b_ut=5; buvid_fp_plain=undefined; CURRENT_QUALITY=80; hit-new-style-dyn=1; hit-dyn-v2=1; LIVE_BUVID=AUTO5016839809229220; home_feed_column=5; SESSDATA=2b9958a5%2C1709688405%2Cdbe9c%2A92CjAR8IgqmCED19VJUWi6JK6skrsyiX52VDWH4KViKmZxzzxH-NopGf_NxzW8FEqF_PkSVjctcS01ckVKVUIzUmRlTDdsd2czYThRRzIzWUl3M25OLVZ4ajFBLWlvd0tPZU54UThwUTdEUkhRb0E4b2RILVBLS01mNFAzSEIyVndtV3BVSjNBbUxnIIEC; bili_jct=6322cc0948a0f9a0392f292ce67696b7; sid=8sa3n650; bp_video_offset_29803158=838849633101807625; PVID=3; browser_resolution=1872-924; fingerprint=49d611e6002bd1170902c2a0be89af54; buvid_fp=ffd4d72041819ec06604c3a45724a51f; b_lsid=987110BA6_18AD5687753; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTYwNTY3MjAsImlhdCI6MTY5NTc5NzQ2MCwicGx0IjotMX0.qGHKVDQRq9wb41B9UnXoTGYlOgTHsgeba9VtsyNJu24; bili_ticket_expires=1696056660",
+        'raw_cookie_line': "http://127.0.0.1:9978/file/tvbox/bilicookie.txt",
         #如果主cookie没有vip，可以设置第二cookie，仅用于播放会员番剧，所有的操作、记录还是在主cookie，不会同步到第二cookie
         'raw_cookie_vip': "",
         #主页默认显示3图
