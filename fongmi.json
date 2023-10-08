@@ -23,6 +23,19 @@
       }
     },
 
+    {
+      "key": "bili_open",
+      "name": "🅱️哔哩貓|影视专用🅱️",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "categories": "音乐#动画#电影#电视剧#番剧#综艺#影视#国创#娱乐#游戏#搞笑#单机游戏#沙雕动画#沙雕穿越#沙雕",
+        "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
+      }
+    },
+	  
         {
          "key": "哔哩",
          "name": "🅱️┃哔哩【FM】┃4K🅱️",
@@ -161,7 +174,8 @@
          "timeout": 30
 	},	
 	
-
+    
+	  
     {
       "key": "七夜",
       "name": "⚽七夜|4K",
@@ -344,35 +358,7 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "哔哩",
-      "name": "🅱️哔哩哔哩🅱️",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/bili_FM.json",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
-      }
-    },
-	  
-    {
-      "key": "bili_open",
-      "name": "🅱️哔哩貓|影视专用🅱️",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "音乐#动画#电影#电视剧#番剧#综艺#影视#国创#娱乐#游戏#搞笑#单机游戏#沙雕动画#沙雕穿越#沙雕",
-        "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"
-      }
-    },
+    
 
     {
       "key": "本地",
