@@ -58,7 +58,7 @@
 
 	{"key": "cntv-1","name": "🌎CCTV|maoJS🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
 
-	    {
+	{
          "key": "csp_wogg_cli",
          "name": "玩偶[T4]",
          "type": 4,
@@ -135,7 +135,7 @@
     {"key": "搜狐资源","name": "️🦊搜狐资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
 
 	
-	    {
+	{
          "key": "腾讯1",
          "name": "🧒腾讯少儿",
          "type": 3,
