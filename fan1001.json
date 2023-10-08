@@ -58,7 +58,7 @@
 {"key":"Aid","name":"🚑急救┃教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 
 
-{"key":"88js","name":"⚽ 88┃看球","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":https://agit.ai/laozou/dr_py/raw/branch/main/js/88看球.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"88js","name":"⚽ 88┃看球","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/laozou/dr_py/raw/branch/main/js/88看球.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"csp_qiumi","name":"⚽ Jrs┃球迷","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/laozou/dr_py/raw/branch/main/js/JRKAN直播.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"csp_310直播","name":"⚽310┃看球","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/laozou/dr_py/raw/branch/main/js/310直播.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"csp_XPath_企鹅体育","name":"🐧企鹅┃体育","type":3,"api":"csp_XPath","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"https://agit.ai/fantaiying/fty/raw/branch/master/json/企鹅直播.json"},
