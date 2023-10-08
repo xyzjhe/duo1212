@@ -248,13 +248,13 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/duboku.json"
+      "ext": "./json/duboku.json"
     },
     {
       "key": "廠長",
       "name": "厂长",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+      "api": "./cat/js/czzy_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -262,7 +262,7 @@
       "key": "布雷",
       "name": "布雷",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bulei_open.js",
+      "api": "./cat/js/bulei_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -270,7 +270,7 @@
       "key": "快看",
       "name": "快看",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
+      "api": "./cat/js/kkys_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -279,7 +279,7 @@
       "key": "伊人",
       "name": "伊人",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/yrzj_open.js",
+      "api": "./cat/js/yrzj_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -287,7 +287,7 @@
       "key": "五五",
       "name": "五五",
       "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/555dy_open.js",
+      "api": "./cat/js/555dy_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -304,7 +304,7 @@
 	  
     {
       "key": "暴風",
-      "name": "暴风",
+      "name": "暴风|采集",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -312,7 +312,7 @@
     },
     {
       "key": "索尼",
-      "name": "索尼 ",
+      "name": "索尼|采集 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -320,7 +320,7 @@
     },
     {
       "key": "快帆",
-      "name": "快帆",
+      "name": "快帆|采集",
       "type": 1,
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
@@ -328,7 +328,7 @@
     },
     {
       "key": "量子",
-      "name": "量子",
+      "name": "量子|采集",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -358,8 +358,6 @@
       "searchable": 1,
       "changeable": 1
     },
-    
-
     {
       "key": "本地",
       "name": "本地",
@@ -386,7 +384,6 @@
       "changeable": 0,
       "ext": "./json/webdav.json"
     },
-   
     {
       "key": "push_agent",
       "name": "推送",
