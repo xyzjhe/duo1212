@@ -36,6 +36,18 @@
     },
 
     {
+     "key": "哔哩",
+     "name": "🅱哔哩哔哩 | DIY",
+     "type": 3,
+     "api": "./cat/js/bili.diy.js",
+     "searchable": 1,
+     "changeable": 0,
+     "playerType":2,
+     "recordable":0,
+     "jar": "./jar/my_FM1003.jar"
+    },
+
+    {
       "key": "bili_open",
       "name": "🅱️哔哩貓|影视专用🅱️",
       "type": 3,
