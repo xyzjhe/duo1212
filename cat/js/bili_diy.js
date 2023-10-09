@@ -6,6 +6,7 @@ let HOST = 'https://api.bilibili.com';
 let siteKey = '';
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
+let cookie = "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"; // 可更换成自己的cookie
 let diy_conf = {};
 if(config.启用本地配置 != 1) {
 	diy_conf = {
@@ -26,7 +27,7 @@ if(config.启用本地配置 != 1) {
 		filterObj: config.自定义筛选
 	}
 };
-let cookie = "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"; // 可更换成自己的cookie
+
 async function request(reqUrl) {
 	const res = await req(reqUrl, {
 		headers: getMb(),
