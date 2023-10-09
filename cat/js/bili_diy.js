@@ -1,6 +1,6 @@
 import {_} from "./lib/cat.js";
 import {def_conf} from "./def_biliconf.js";
-import {config} from "http://127.0.0.1:9978/file/tvbox/%E9%85%8D%E7%BD%AE_Bili%E6%BA%90.js";
+import {config} from "http://127.0.0.1:9978/file/tvbox/bilibili.js";
 let key = 'bili_diy';
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
