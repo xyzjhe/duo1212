@@ -4,7 +4,7 @@ export var config={
 启用本地配置:1,
 	
 //设置自己的哔哩cookie
-cookie:"https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/cookie.txt",
+//cookie:"https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/cookie.txt",
 
 
 //搜索开关，0是关闭，1是开启
