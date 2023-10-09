@@ -2,7 +2,7 @@ export var config={
 
 //是否启用本地配置：0是网络配置，1是本地配置
 
-启用本地配置:0
+启用本地配置:0,
 	
 //设置自己的哔哩cookie
 cookie:"https://raw.githubusercontent.com/xinyi1984/xytv/master/txt/cookie.txt",
