@@ -31,6 +31,55 @@
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
+        {
+     "key":"py_bili15",
+     "name":"🅱️┃哔哩PY_5】┃4K🅱️",
+     "type":3,
+     "api":"py_bili15",
+     "style":{ "type":"rect", "ratio":1.33 },
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "ext":"./py/py_bilibili5.py"
+    },
+
+    {
+     "key": "哔哩mao1",
+     "name": "🅱哔哩哔哩|diy",
+     "type": 3,
+     "api": "./cat/js/bili.diy.js",
+     "searchable": 1,
+     "changeable": 0,
+     "playerType":2,
+     "recordable":0,
+     "jar": "./jar/my_FM1003.jar"
+    },
+
+    {
+     "key": "哔哩mao2",
+     "name": "🅱哔哩哔哩|min",
+     "type": 3,
+     "api": "./cat/js/bili.min.js",
+     "searchable": 1,
+     "changeable": 0,
+     "playerType":2,
+     "recordable":0,
+     "jar": "./jar/my_FM1003.jar"
+    },
+
+    {
+      "key": "bili_open",
+      "name": "🅱️哔哩貓|影视专用🅱️",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "categories": "音乐#动画#电影#电视剧#番剧#综艺#影视#国创#娱乐#游戏#搞笑#单机游戏#沙雕动画#沙雕穿越#沙雕",
+        "cookie": "nostalgia_conf=-1; _uuid=23762577-A92B-1098F-2951-1010286565C22332751infoc; buvid_fp=cb52404ffcb2f1d4465272e027878e4e; b_nut=1693273134; buvid3=EEF269DD-E3C1-20E6-56BC-6F998D8A41BC34047infoc; buvid4=E895B52E-32BA-F1E6-C48E-0226689C101634047-023082909-k7Sx0NNbpSMgbjQw/nHgoA==; header_theme_version=CLOSE; CURRENT_FNVAL=4048; rpdid=|(J~J|ul)kJJ0J'uYmJk~RkJm; b_lsid=B88D1C9F_18A737E41B3; bsource=search_baidu; innersign=0; SESSDATA=423cae8a,1709707027,78dda*91CjCJjbR-K9gf_SryOjL-ZKCtv-5IGQBSQ85n_YGs7WHC04U0YMeR6sVfBWvcjMkpwkISVk1BN18wQXB0blloak5hVEltOE15UmlqdC1OaE82aUROdGt6Ui1QT0FBUU5HZ0pmTUlqeGpEaElnM2l3Uk5oR19QWUMwM3FycV9YMmtLQ1hSRWdwZ2F3IIEC; bili_jct=4232024aee0cb58fce87ee57234b7ab5; DedeUserID=3493083440220423; DedeUserID__ckMd5=e5414f7966388b7a; sid=gcv6311p; home_feed_column=4; browser_resolution=371-929"
+      }
+    },
+	    
 	{
          "key": "哔哩",
          "name": "🅱️┃哔哩【FM】┃4K🅱️",
