@@ -1,4 +1,4 @@
-export var loc_conf = {
+export var config = {
 
 	自定义分类:1;
         
