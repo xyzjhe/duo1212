@@ -1,7 +1,7 @@
 export var def_conf={
 
 //设置自己的哔哩cookie
-cookie:"https://agit.ai/cacifer/xyz/raw/branch/master/main/cookie.txt",
+//cookie:"https://agit.ai/cacifer/xyz/raw/branch/master/main/cookie.txt",
 
 
 //搜索开关，0是关闭，1是开启
