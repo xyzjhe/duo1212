@@ -13,7 +13,7 @@ let vod_audio_id = {
     30216: 64000,
 };
 let vod_codec = {
-    // 13: 'AV1',
+    13: 'AV1',
     12: 'HEVC',
     7: 'AVC',
 };
