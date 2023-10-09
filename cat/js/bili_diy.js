@@ -9,7 +9,7 @@ const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 let diy_conf = {};
 if(config.启用本地配置 != 1) {
 	diy_conf = {
-		cookie: def_conf.cookie,
+		
 		searchable: def_conf.searchable,
 		homeSwitch: def_conf.homeSwitch,
 		homeName: def_conf.homeName,
@@ -18,7 +18,7 @@ if(config.启用本地配置 != 1) {
 	}
 } else {
 	diy_conf = {
-		cookie: config.cookie,
+		
 		searchable: config.搜索功能,
 		homeSwitch: config.显示推荐页,
 		homeName: config.推荐页显示内容,
@@ -26,7 +26,7 @@ if(config.启用本地配置 != 1) {
 		filterObj: config.自定义筛选
 	}
 };
-let cookie = diy_conf.cookie;
+let cookie = "http://127.0.0.1:9978/file/tvbox/bilicookie.txt"; // 可更换成自己的cookie
 async function request(reqUrl) {
 	const res = await req(reqUrl, {
 		headers: getMb(),
