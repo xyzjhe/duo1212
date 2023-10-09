@@ -168,6 +168,22 @@
          "filterable": 1,
          "timeout": 30
 	},	
+
+	{
+         "key": "腾讯new",
+         "name": "🧒腾讯new",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/腾讯_new.js"
+        },
+
+	{
+         "key": "优酷new",
+         "name": "🧒优酷new",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/优酷_new.js"
+        },
         
         
         //网盘资源区
