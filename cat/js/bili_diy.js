@@ -7,7 +7,7 @@ let siteKey = '';
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 let diy_conf = {};
-if(config.启用本地配置 != 1) {
+if(config.启用本地配置 != 0) {
 	diy_conf = {
 		cookie: def_conf.cookie,
 		searchable: def_conf.searchable,
