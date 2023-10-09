@@ -36,10 +36,22 @@
     },
 
     {
-     "key": "哔哩",
-     "name": "🅱哔哩哔哩 | DIY",
+     "key": "哔哩mao1",
+     "name": "🅱哔哩哔哩|diy",
      "type": 3,
      "api": "./cat/js/bili.diy.js",
+     "searchable": 1,
+     "changeable": 0,
+     "playerType":2,
+     "recordable":0,
+     "jar": "./jar/my_FM1003.jar"
+    },
+
+    {
+     "key": "哔哩mao2",
+     "name": "🅱哔哩哔哩|min",
+     "type": 3,
+     "api": "./cat/js/bili.min.js",
      "searchable": 1,
      "changeable": 0,
      "playerType":2,
