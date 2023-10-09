@@ -42,18 +42,6 @@
 	 "jar": "./jar/myFM_1003.jar" 
          },
 
-	{
-         "key": "哔哩",
-         "name": "🅱哔哩哔哩 | DIY",
-         "type": 3,
-         "api": "./cat/js/bili.diy.js",
-         "searchable": 1,
-         "changeable": 0,
-         "playerType":2,
-         "recordable":0,
-	 "jar": "./jar/my_FM1003.jar"
-        },
-
 	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
         { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
