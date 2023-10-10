@@ -24,44 +24,8 @@
     },
 
     {
-     "key":"py_bili15",
-     "name":"🅱️┃哔哩PY_5】┃4K🅱️",
-     "type":3,
-     "api":"py_bili15",
-     "style":{ "type":"rect", "ratio":1.33 },
-     "searchable":1,
-     "quickSearch":1,
-     "filterable":1,
-     "ext":"./py/py_bilibili5.py"
-    },
-
-    {
-     "key": "哔哩mao1",
-     "name": "🅱哔哩哔哩|diy",
-     "type": 3,
-     "api": "./cat/js/bili.diy.js",
-     "searchable": 1,
-     "changeable": 0,
-     "playerType":2,
-     "recordable":0,
-     "jar": "./jar/my_FM1003.jar"
-    },
-
-    {
-     "key": "哔哩mao2",
-     "name": "🅱哔哩哔哩|min",
-     "type": 3,
-     "api": "./cat/js/bili.min.js",
-     "searchable": 1,
-     "changeable": 0,
-     "playerType":2,
-     "recordable":0,
-     "jar": "./jar/my_FM1003.jar"
-    },
-
-    {
       "key": "bili_open",
-      "name": "🅱️哔哩貓|影视专用🅱️",
+      "name": "🅱️哔哩貓【FM】🅱️",
       "type": 3,
       "api": "./cat/js/bili_open.js",
       "searchable": 1,
