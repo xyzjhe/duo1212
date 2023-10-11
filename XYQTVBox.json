@@ -58,7 +58,7 @@
 	{"key": "cntv-1","name": "🌎CCTV|maoJS🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open.js",  "jar": "./jar/my_FM1003.jar"},
         {"key": "cntv-新闻","name": "🌎CCTV13|新闻频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv_new.js",  "jar": "./jar/my_FM1003.jar"},
         {"key": "cntv-2","name": "🌎CCTV2|财经频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv2.js",  "jar": "./jar/my_FM1003.jar"},
-
+        {"key": "cntv-4","name": "🌎CCTV4|国际频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv4.js",  "jar": "./jar/my_FM1003.jar"},
 
 	
 	    
