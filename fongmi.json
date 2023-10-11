@@ -70,6 +70,32 @@
         {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
         {"key":"drpy_js_相声随身听","name":"相声随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/相声随身听.js","playerType":"2"},
         {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
+
+        {
+         "key": "drpy_js_蜻蜓FM",
+         "name": "蜻蜓FM(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/蜻蜓FM.js",
+         "playerType": "2"
+        },
+	{
+         "key": "drpy_js_博看听书",
+         "name": "博看听书(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/博看听书.js",
+         "playerType": "2"
+        },
+        {
+         "key": "drpy_js_喜马拉雅",
+         "name": "喜马拉雅(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/喜马拉雅.js",
+         "playerType": "2"
+        },
+	  
         {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
         {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
