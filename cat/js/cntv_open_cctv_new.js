@@ -24,7 +24,7 @@ async function init(cfg) {
 async function home(filter) {
 	const classes = [
 	{type_id: "TOPC1451558976694518", type_name: "焦点访谈"},
-	{type_id: "TOPC1451559038345600", type_name: "每周质量报告"},
+	{type_id: "TOPC1451558650605123", type_name: "每周质量报告"},
 	{type_id: "TOPC1451558779639282", type_name: "午夜新闻"},
 	{type_id: "TOPC1451558819463311", type_name: "新闻调查"},
 	{type_id: "TOPC1451559180488841", type_name: "新闻周刊"},
