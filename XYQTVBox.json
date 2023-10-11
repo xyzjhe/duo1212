@@ -226,7 +226,7 @@
     "parses": [
         
     {"name":"Web聚合","type":3,"url":"Web"},
-
+    {"name":"推荐","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
     {"name":"解析1", "type":0,"url":"https://jx.xmflv.cc/?url="},
     {"name":"解析2", "type":0,"url":"https://jx.777jiexi.com/player/?url="},
     {"name":"解析3", "type":0,"url":"https://jx.zui.cm/?url="},
