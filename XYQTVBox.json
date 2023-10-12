@@ -7,7 +7,7 @@
            {
              "name":"直播",
              "type":0,
-             "url":"http://home.jundie.top:81/ray/tvlive.txt",
+             "url":"./live/live1012ok.txt",
              "playerType":1,
              "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
              "logo":"https://epg.112114.xyz/logo/{name}.png"
