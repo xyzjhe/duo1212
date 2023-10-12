@@ -65,7 +65,7 @@
 
 	{"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
 
-	{"key":"py_cctv_full","name":"📺CCTV┃pyall🌎","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cntv.py"},
+	{"key":"py_cctv_full","name":"📺CCTV┃pyall🌎","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_full.py"},
 	    
         {"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
 	    
