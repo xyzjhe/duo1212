@@ -2,6 +2,17 @@
   "spider": "./jar/myFM_1003.jar;md5;6db44ff47a5a814fba5acb88bc219e9b",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+
+  "lives": [
+           {
+             "name":"直播",
+             "type":0,
+             "url":"./live/live1012ok.txt",
+             "playerType":1,
+             "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+             "logo":"https://epg.112114.xyz/logo/{name}.png"
+           }
+         ],
   
   "sites": [
 
