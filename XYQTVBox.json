@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider": "./jar/spider_xyq_plus_1012.jar;md5;5867e07a9953b2f4ea6103c8a66b216f",
+    "spider": "./jar/spider_xyq_plus_1013b.jar;md5;82bbddb0c06d2c98699d74bfa95a9d6a",
 	
     "lives": [
            {
@@ -228,7 +228,7 @@
 	
     "parses": [
         
-    {"name":"解析聚合","type":3,"url":"Demo"},
+    {"name":"聚合","type":3,"url":"Demo"},
     {"name":"推荐","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
     {"name":"解析1", "type":0,"url":"https://jx.xmflv.cc/?url="},
     {"name":"解析2", "type":0,"url":"https://jx.777jiexi.com/player/?url="},
