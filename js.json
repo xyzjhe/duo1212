@@ -30,14 +30,14 @@
   },
 	  
   {
-         "key": "哔哩",
-         "name": "🅱️┃哔哩【FM】┃4K🅱️",
-         "type": 3,
-         "api": "csp_Bili",
-         "searchable": 1,
-         "changeable": 0,
-         "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" },
-	 "jar": "./jar/myFM_1003.jar" 
+      "key": "哔哩",
+      "name": "🅱️┃哔哩【FM】┃4K🅱️",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
+	 
   },
 
 
