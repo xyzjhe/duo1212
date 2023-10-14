@@ -15,7 +15,7 @@ let vod_audio_id = {
 };
 
 let vod_codec = {
-    // 13: 'AV1',
+    13: 'AV1',
     12: 'HEVC',
     7: 'AVC',
 };
