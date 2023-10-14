@@ -3,9 +3,6 @@
  
  {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
  
-{"key":"drpy_js_短剧网","name":"影视 | 短剧网[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/短剧网.js"},
-{"key":"drpy_js_阿布影院","name":"影视 | 阿布影院[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/阿布影院.js"},
-
 {
       "key": "玩偶",
       "name": "🎯玩偶哥哥|4K",
@@ -151,6 +148,9 @@
 {"key":"bili_open","name":"哔哩貓[影视专用]","type":3,"api":"https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"沙雕动画#沙雕穿越#沙雕","cookie":"buvid3=8B57D3BA-607A-1E85-018A-E8C430023CED42659infoc; b_lsid=BEB8EE7F_18742FF8C2E; bsource=search_baidu; _uuid=DE810E367-B52C-AF6E-A612-EDF4C31567F358591infoc; b_nut=100; buvid_fp=711a632b5c876fa8bbcf668c1efba551; SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7; sid=5h4ruv6o; buvid4=978E9208-13DA-F87A-3DC0-0B8EDF46E80434329-123040301-dWliG5BMrUb70r3g583u7w%3D%3D"}},
 {"key":"zxzj","name":"在线之家[cat]","type":3,"api":"./cat/js/zxzj_open.js"},
 {"key":"kkys","name":"快看影视[cat]","type":3,"api":"./cat/js/kkys_open.js"},
+
+{"key":"drpy_js_短剧网","name":"影视 | 短剧网[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/短剧网.js"},
+{"key":"drpy_js_阿布影院","name":"影视 | 阿布影院[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/阿布影院.js"},
 
 {"key":"drpy_js_JRKAN直播","name":"体育 | JRKAN直播[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/JRKAN直播.js"},
 {"key":"drpy_js_抓饭体育","name":"体育 | 抓饭体育[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./js/抓饭体育.js"},
