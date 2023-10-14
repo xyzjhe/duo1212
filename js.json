@@ -18,7 +18,7 @@
 	 
  {
       "key": "bili_open",
-      "name": "🅱️哔哩貓【FM】🅱️",
+      "name": "🅱️哔哩貓【FM】640p_test🅱️",
       "type": 3,
       "api": "./cat/js/bili_open.js",
       "searchable": 1,
