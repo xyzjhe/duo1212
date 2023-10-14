@@ -22,7 +22,7 @@
       /*{"key": "QQ2k","name": "🐧腾讯视频2K_test", "type": 1, "playerType": 2, "api": "http://tvbox-1-g5221611.deta.app/vod/qq", "playUrl": "json:http://221.229.173.30:8808/jhjson/daoyongsiquanjia.php?url="},*/  
       /*{"key": "drpy_js_QQ1","name": "🐧┃企鹅QQ┃4K🐧","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/qq4k.js"},*/   
 
-	[{"key":"豆瓣","name":"豆瓣热搜","type":3,"api":"csp_Douban","searchable":0},
+	{"key":"豆瓣","name":"豆瓣热搜","type":3,"api":"csp_Douban","searchable":0},
         {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 	{"key":"阿里云盘登录","name":"📀云盘｜登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 	
