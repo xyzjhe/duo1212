@@ -1,7 +1,10 @@
 {"spider":"./jar/myFM_1003.jar",
  "sites":[
- 
- {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
+
+{"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0},   
+{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0}, 
+	 
+{"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
  
 {
       "key": "玩偶",
@@ -29,19 +32,10 @@
      }
   },*/
 	  
-  {
-      "key": "哔哩",
-      "name": "🅱️┃哔哩【FM】┃4K🅱️",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
-	 
-  },
+  
 
 
-{
+    {
       "key": "七夜",
       "name": "⚽七夜|4K",
       "type": 3,
@@ -105,7 +99,16 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$test2$$$test2"
     },
   
-
+ {
+      "key": "哔哩",
+      "name": "🅱️┃哔哩【FM】┃4K🅱️",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
+	 
+ },
 	 
  { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
  { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
