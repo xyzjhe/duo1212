@@ -1,5 +1,5 @@
 // 一级&搜索页 直向改横向 --> land:1, ratio:1.78,
-import { _ } from "./js/lib/cat.js";
+import { _ } from "./lib/cat.js";
 let key = '我的哔哩';
 let HOST = 'https://api.bilibili.com';
 let siteKey = '';
