@@ -1,4 +1,7 @@
-{"spider":"./jar/myFM_1003.jar",
+{
+	
+"spider": "./jar/myFM_1003.jar;md5;6db44ff47a5a814fba5acb88bc219e9b",
+	
  "sites":[
 
 {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0},   
