@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/myFM_1003.jar;md5;6db44ff47a5a814fba5acb88bc219e9b",
+  "spider": "./jar/myFM_1016.jar;md5;2282cfb6dfb953dd98ceaa55f9b39311",
   
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 
@@ -272,7 +272,16 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$test2$$$test2"
     },
     
-   
+    {
+      "key": "賤賤",
+      "name": "賤賤",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./json/jianpian.json"
+    },
+	  
     {
       "key": "獨播",
       "name": "独播",
