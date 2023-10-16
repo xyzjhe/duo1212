@@ -114,14 +114,7 @@
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
         {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
-	/*{
-         "key": "优酷new",
-         "name": "🧒优酷new",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/优酷_new.js"
-        },*/
-
+	
        {"key": "腾讯new","name":"🐧腾讯视频1010🐧","type": 3,"api": "./drpy_js/libs/drpy2.min.js", "ext": "./drpy_js/js/腾讯_new.js" },
        {"key":"me_qq","name":"🐧┃腾讯视频PHP┃test1", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1, "filterable":1},
        {"key":"csp_qq","name":"🐧┃腾讯视频PHP┃test2","type":1,"api":"http://tvbox.top/qq.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
@@ -457,12 +450,35 @@
   "doh": [
 
     {
-      "name": "腾讯",
-      "url": "https://doh.pub/dns-query"
+      "name": "OpenDNS",
+      "url": "https://dns.www.opendns.com/dns-query",
+      "ips":[
+      "208.67.222.222",
+      "208.67.220.220"
+      ]
+    },
+      {
+      "name": "114dns",
+      "url": "https://dns.114dns.com/dns-query",
+      "ips":[
+      "114.114.114.114",
+      "114.114.115.115"
+      ]
+    },
+    {
+      "name": "騰訊",
+      "url": "https://doh.pub/dns-query",
+      "ips":[
+      "119.29.29.29"
+      ]
     },
     {
       "name": "阿里",
-      "url": "https://dns.alidns.com/dns-query"
+      "url": "https://dns.alidns.com/dns-query",
+      "ips":[
+      "223.6.6.6",
+      "223.5.5.5"
+      ]
     },
     {
       "name": "360",
@@ -514,25 +530,7 @@
   ],
   "rules": [
 
-    {
-      "name": "proxy",
-      "hosts": [
-        "raw.githubusercontent.com",
-        "googlevideo.com",
-        "cdn.v82u1l.com",
-        "cdn.iz8qkg.com",
-        "cdn.kin6c1.com",
-        "c.biggggg.com",
-        "c.olddddd.com",
-        "haiwaikan.com",
-        "www.histar.tv",
-        "youtube.com",
-        "uhibo.com",
-        ".*boku.*",
-        ".*nivod.*",
-        ".*ulivetv.*"
-      ]
-    },
+    {"name":"proxy","hosts":[["epg.112114.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 
     {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 	  
