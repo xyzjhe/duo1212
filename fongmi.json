@@ -1,7 +1,7 @@
 {
-  "spider": "./jar/myFM_1016b.jar;md5;33ac6e9d2f6c7c54f64898b2c2cd1c28",
+  "spider": "./jar/myFM_1016c.jar;md5;afb8b44c709e6628e4835bd58a90cc0f",
   
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "wallpaper":"https://api.likepoems.com/img/bing",
 
   "lives": [
            {
