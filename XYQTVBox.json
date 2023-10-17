@@ -189,6 +189,33 @@
          "ext": "./drpy_js/js/童趣.js"
         },
 
+     {
+      "key": "ikan6",
+      "name": "爱看┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---/"
+    },
+    {
+      "key": "csp_xb_101影视",
+      "name": "101┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html"
+    },
+    {
+      "key": "zxzj",
+      "name": "在线┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+     },
 
     {
       "key": "腐剧",
@@ -347,37 +374,7 @@
       "api": "csp_XBPQ",
       "ext": "./XBPQ/剧看.json"
     },
-    {
-      "key": "ikan6",
-      "name": "爱看┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---/"
-    },
-    {
-      "key": "csp_xb_101影视",
-      "name": "101┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "http://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html"
-    },
-    {
-      "key": "zxzj",
-      "name": "在线┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
-     },
-
-    
-
-      {
+   {
             "key": "saohuo",
             "name": "骚火┃xBPQ",
             "type": 3,
@@ -541,7 +538,7 @@
         },
         {
             "key": "了猪",
-            "name": "乐猪x┃BPQ",
+            "name": "乐猪┃xBPQ",
             "type": 3,
             "playerType": 2,
             "api": "csp_XBPQ",
@@ -691,7 +688,7 @@
         },
         {
             "key": "低端拼接",
-            "name": "低端┃BPQ",
+            "name": "低端┃xBPQ",
             "type": 3,
             "changeable": 1,
             "api": "csp_XBPQ",
@@ -723,7 +720,7 @@
 
 	{
             "key": "速搜",
-            "name": "速搜xBPQ",
+            "name": "速搜┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
@@ -802,7 +799,7 @@
         },
         {
             "key": "mougu",
-            "name": "蘑菇x┃xBPQ",
+            "name": "蘑菇┃xBPQ",
             "type": 3,
             "changeable": 1,
             "api": "csp_XBPQ",
