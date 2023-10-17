@@ -335,7 +335,7 @@
 	    
         {
             "key": "348",
-            "name": "348┃XBPQ",
+            "name": "348┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -372,7 +372,7 @@
 	    
 	{
             "key": "子子",
-            "name": "子子┃XBPQ",
+            "name": "子子┃xBPQ",
             "type": 3,
             "changeable": 1,
             "api": "csp_XBPQ",
@@ -406,7 +406,7 @@
 
 	{
             "key": "黑狐",
-            "name": "黑狐┃XBPQ",
+            "name": "黑狐┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -447,7 +447,7 @@
         },
         {
             "key": "saohuo",
-            "name": "骚火┃XBPQ",
+            "name": "骚火┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -469,7 +469,7 @@
 
 	{
             "key": "龟龟",
-            "name": "龟龟┃XBPQ",
+            "name": "龟龟┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
@@ -493,7 +493,7 @@
         },
         {
             "key": "看看",
-            "name": "看看┃XBPQ",
+            "name": "看看┃xBPQ",
             "type": 3,
             "playerType": "1",
             "changeable": 0,
@@ -517,7 +517,7 @@
         },
         {
             "key": "双黄",
-            "name": "双黄┃XBPQ",
+            "name": "双黄┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -534,7 +534,7 @@
 
         {
             "key": "莱米",
-            "name": "莱米┃XBPQ",
+            "name": "莱米┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "2",
@@ -566,7 +566,7 @@
         },
         {
             "key": "夜幕",
-            "name": "️夜夜┃XBPQ",
+            "name": "️夜夜┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -600,7 +600,7 @@
         },
         {
             "key": "土豪",
-            "name": "土豪┃XBPQ",
+            "name": "土豪┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -621,7 +621,7 @@
         },
        {
             "key": "速搜",
-            "name": "速搜┃XBPQ",
+            "name": "速搜┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
@@ -658,7 +658,7 @@
 
          {
             "key": "ok",
-            "name": "Free┃XBPQ",
+            "name": "Free┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
@@ -682,7 +682,7 @@
         },
         {
             "key": "兔兔",
-            "name": "兔兔┃XBPQ",
+            "name": "兔兔┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
