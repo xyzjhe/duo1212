@@ -189,7 +189,151 @@
          "ext": "./drpy_js/js/童趣.js"
         },
 
-        
+
+    {
+      "key": "腐剧",
+      "name": "腐剧┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://121.127.249.200:233/ruifenglb_api.php/v1.vod"
+    },
+    {
+      "key": "哈喽",
+      "name": "迷你┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.miniku.cc/xgapp.php/v1/"
+    },
+    {
+      "key": "鸭鸭",
+      "name": "鸭鸭┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
+    },
+    {
+      "key": "益达影视",
+      "name": "益达┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://myd666.tv/lvdou_api.php/v1.vod"
+    },
+    {
+      "key": "嘉靓",
+      "name": "嘉良┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "playerType": 2,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://cms.jialiangos.com/api.php/app/"
+    },
+    {
+      "key": "速看100",
+      "name": "速看┃YsV2",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://sk100.tv/api.php/app/"
+    },
+
+
+     {
+      "key": "ikan6",
+      "name": "爱看┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---/"
+    },
+    {
+      "key": "csp_xb_101影视",
+      "name": "101┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html"
+    },
+    {
+      "key": "zxzj",
+      "name": "在线┃xBiu",
+      "type": 3,
+      //"api": "./catvod/zxzj_open.js",
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+    },
+
+
+    { 
+      "key": "csp_XBPQ_JOJO",
+      "name": "JOJO┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "二次截取": "class=\"content-body\"&&class=\"content-lift\"",
+        "数组": "<a&&</a>",
+        "图片": "src=\"&&\"",
+        "标题": "class=\"card-title\">&&</p>",
+        "副标题": "class=\"item-speed\">&&</p>",
+        "链接": "href=\"&&\"",
+        "播放数组": "class=\"tabs-plyr-list\">&&</div>",
+        "嗅探词": "/ts/#/file/#.data.#.bin",
+        "过滤词": "m3u8",
+        "搜索url": "https://jiohub.top/video/search?q={wd}&pid=-qlDbwwDcZ8t1hJN7H0sGh36bnsUqsuyQ2drIL4zs0s=",
+        "分类": "电影$电影#国产$国产#美剧$美剧#日剧$日剧#韩剧$韩剧#动漫$动漫#纪录$纪录",
+        "分类url": "https://jiohub.top/video/{cateId}?page={catePg}&size=18"
+      }
+    },
+    {
+      "key": "csp_XBPQ_miniju",
+      "name": "短剧┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://mimiju.com/vodshow/{cateId}--{by}------{catePg}---.html",
+        "分类": "短剧$20#电影$22#电视剧$21#动漫$23#综艺$24"
+      }
+    },
+
+   {
+      "key": "libviotop",
+      "name": "蚂蚁┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "站名": "libvio_top",
+        "主页url": "https://libvio.top/",
+        "数组": "class=\"stui-vodlist__box\">&&</a",
+        "链接": "href=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "分类url": "https://libvio.top/show/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$30"
+      }
+    },
+	    
         {
             "key": "348",
             "name": "348┃XBPQ",
