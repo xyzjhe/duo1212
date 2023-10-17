@@ -37,6 +37,15 @@
         {"key":"drpy_js_相声随身听","name":"相声随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/相声随身听.js","playerType":"2"},
         {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
 
+    {"key":"YiSo","name":"😹易搜┃搜索","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+    {"key":"Zhaozy","name":"🐺找资源┃搜索","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$fantaiying$$$qqq111"},
+    {"key":"PanSou","name":"🦊盘搜┃搜索","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+    {"key":"UpYun","name":"😻Up搜┃搜索","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+    {"key":"PanSearch","name":"🙀盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+    {"key":"七夜","name":"😾七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
+    {"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"}, 
+
+
         {
          "key": "drpy_js_蜻蜓FM",
          "name": "蜻蜓FM(js)",
@@ -153,16 +162,9 @@
          "quickSearch": 1,
          "filterable": 1,
          "timeout": 30
-	        },	
+	 },	
 
-    {"key":"YiSo","name":"😹易搜┃搜索","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-    {"key":"Zhaozy","name":"🐺找资源┃搜索","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd$$$fantaiying$$$qqq111"},
-    {"key":"PanSou","name":"🦊盘搜┃搜索","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-    {"key":"UpYun","name":"😻Up搜┃搜索","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-    {"key":"PanSearch","name":"🙀盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-    {"key":"七夜","name":"😾七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"},
-    {"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt+4k|auto|fhd"}, 
-
+    
     {
       "key": "SP33",
       "name": "360sp┃解析",
