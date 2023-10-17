@@ -269,7 +269,6 @@
       "key": "zxzj",
       "name": "在线┃xBiu",
       "type": 3,
-      //"api": "./catvod/zxzj_open.js",
       "api": "csp_XBiu",
       "searchable": 1,
       "changeable": 1,
