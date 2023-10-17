@@ -326,9 +326,8 @@
 
 	{
             "key": "龟龟",
-            "name": "龟龟┃BPQ",
+            "name": "龟龟┃XBPQ",
             "type": 3,
-            "jar": "https://pan.shangui.cc/f/eLy6SQ/gbm.jar;md5;fa797d3f25f35eb3fea9a369bc55620f",
             "api": "csp_XBPQ",
             "playerType": "1",
             "ext": {
