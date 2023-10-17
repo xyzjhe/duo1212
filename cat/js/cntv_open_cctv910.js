@@ -41,8 +41,8 @@ async function home(filter) {
         {type_id: "TOPC1575253587571324", type_name: "跟着书本去旅行"},
         {type_id: "TOPC1574995326079121", type_name: "百家说故事"},
         {type_id: "TOPC1451557523542854", type_name: "读书"},
-        {type_id: "TOPC1570876640457386", type_name: "解码科技史"}
-        {type_id: "TOPC1570875218228998", type_name: "创新进行时"}
+        {type_id: "TOPC1570876640457386", type_name: "解码科技史"},
+        {type_id: "TOPC1570875218228998", type_name: "创新进行时"},
         {type_id: "TOPC1592552941644815",type_name: "中国影像方志"}
       ];
 	const filterObj = {};
