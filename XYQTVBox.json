@@ -369,7 +369,6 @@
       "key": "zxzj",
       "name": "在线┃xBiu",
       "type": 3,
-      //"api": "./catvod/zxzj_open.js",
       "api": "csp_XBiu",
       "searchable": 1,
       "changeable": 1,
@@ -380,12 +379,11 @@
 
       {
             "key": "saohuo",
-            "name": "骚火┃直连",
+            "name": "骚火┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "playerType": "2",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "ext": {
                 "分类url": "https://saohuo.vip/list/{cateId}-{catePg}.html;;r1da",
@@ -403,11 +401,10 @@
 
 	{
             "key": "蜗牛2",
-            "name": "蜗牛┃直连",
+            "name": "蜗牛┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playStartTime": 15,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "二次截取": "module-items&&<footer id=+module-item-cover",
                 "数组": "module-item-pic&&module-item-cover",
@@ -421,10 +418,9 @@
         },
         {
             "key": "速映",
-            "name": "速映┃BPQ",
+            "name": "速映┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "站名": "速映影视",
                 "主页url": "http://www.suying.life/",
@@ -446,10 +442,9 @@
         },
         {
             "key": "耐看",
-            "name": "耐看┃BPQ",
+            "name": "耐看┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "1",
             "ext": {
@@ -471,9 +466,8 @@
         },
         {
             "key": "csp_XBP南坊",
-            "name": "南坊┃直连",
+            "name": "南坊┃xBPQ",
             "type": 3,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -514,10 +508,9 @@
         },
         {
             "key": "子子",
-            "name": "子子┃BPQ",
+            "name": "子子┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "1",
             "ext": {
@@ -548,12 +541,11 @@
         },
         {
             "key": "了猪",
-            "name": "乐猪┃BPQ",
+            "name": "乐猪x┃BPQ",
             "type": 3,
             "playerType": 2,
             "api": "csp_XBPQ",
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "站名": "乐猪影视",
                 "主页url": "http://www.lezhutv.com/",
@@ -587,10 +579,9 @@
         },
         {
             "key": "淘剧",
-            "name": "淘剧┃BPQ",
+            "name": "淘剧┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "主页url": "http://dyxz.tv",
                 "数组": "<div class=\"stui-vodlist__box\">&&</div>",
@@ -626,13 +617,12 @@
         },
 
 	{
-            "key": "🦐",
-            "name": "皮皮🦐┃影视",
+            "key": "皮皮",
+            "name": "皮皮┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "http://pipixia.vip/index.php/ajax/data?mid=1&tid=1&page=1&limit=20",
@@ -665,10 +655,9 @@
         },
         {
             "key": "348",
-            "name": "348┃蓝光",
+            "name": "348┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "头部集合": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36#Referer$https://www.348z.pro/",
                 "站名": "348电影网",
@@ -705,7 +694,6 @@
             "name": "低端┃BPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "2",
             "ext": {
@@ -735,11 +723,10 @@
 
 	{
             "key": "速搜",
-            "name": "速搜┃BPQ",
+            "name": "速搜xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "数组": "class=\"top&&</li",
                 "请求头": "AppleCoreMedia/1.0.0.17D50 (iPhone; U; CPU OS 13_3_2 like Mac OS X; zh_cn)",
@@ -773,12 +760,11 @@
 
 	{
             "key": "黑狐",
-            "name": "黑狐┃BPQ",
+            "name": "黑狐┃xBPQ",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "playerType": "2",
             "api": "csp_XBPQ",
             "ext": {
@@ -816,10 +802,9 @@
         },
         {
             "key": "mougu",
-            "name": "蘑菇┃BPQ",
+            "name": "蘑菇x┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "2",
             "ext": {
@@ -838,10 +823,9 @@
         },
         {
             "key": "龟龟",
-            "name": "龟龟┃BPQ",
+            "name": "龟龟┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "2",
             "ext": {
@@ -860,9 +844,8 @@
         },
         {
             "key": "看看",
-            "name": "看看┃BPQ",
+            "name": "看看┃xBPQ",
             "type": 3,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "playerType": "1",
             "changeable": 1,
             "api": "csp_XBPQ",
@@ -885,9 +868,8 @@
         },
         {
             "key": "双黄",
-            "name": "双黄┃BPQ",
+            "name": "双黄┃xBPQ",
             "type": 3,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "ext": {
                 "嗅探词": "v3.toutiaovod.com#v3-dy-o.zjcdn#.m3u8#/tos/#.mp4",
@@ -902,9 +884,8 @@
         },
         {
             "key": "蜗牛",
-            "name": "蜗牛┃BPQ",
+            "name": "蜗牛┃xBPQ",
             "type": 3,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "ext": {
                 "分类url": "https://www.yizhiwo.cc/vodshow/{cateId}--{area}------{catePg}---{year}.html;;au0",
@@ -916,10 +897,9 @@
         },
         {
             "key": "莱米",
-            "name": "莱米┃BPQ",
+            "name": "莱米┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "2",
             "ext": {
@@ -943,10 +923,9 @@
         },
         {
             "key": "热播库",
-            "name": "热播┃BPQ",
+            "name": "热播┃xBPQ",
             "type": 3,
             "changeable": 1,
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "api": "csp_XBPQ",
             "playerType": "1",
             "ext": {
@@ -974,11 +953,10 @@
         },
         {
             "key": "ok",
-            "name": "Free┃BPQ",
+            "name": "Free┃xBPQ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": "1",
-            "jar": "./jar/XBPQ1.jar;md5;6f9b5a1696e0a8164210fbe6ac9f4ccf",
             "ext": {
                 "分类url": "https://www.freeok.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;m",
                 "分类": "电影&剧集&动漫&综艺",
