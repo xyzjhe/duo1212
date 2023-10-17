@@ -1,6 +1,6 @@
 // 无搜索功能
 import { _ } from "./lib/cat.js";
-let key = 'CCTV9纪录科教频道';
+let key = 'CCTV9纪录&科教频道';
 let HOST = 'http://api.cntv.cn';
 let siteKey = '';
 let siteType = 0;
