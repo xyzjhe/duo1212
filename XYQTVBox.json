@@ -9,7 +9,7 @@
              "type":0,
              "url":"./live/live1012ok.txt",
              "playerType":1,
-             ""epg": "http://api.cntv.cn/epg/epginfo?serviceId=cbox&c={name}&d={date}",
+             "epg": "http://api.cntv.cn/epg/epginfo?serviceId=cbox&c={name}&d={date}",
              "logo": "https://agit.ai/laozou/png/raw/branch/main/png/{name}.png"
            }
          ],
