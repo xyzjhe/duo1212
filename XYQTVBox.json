@@ -42,7 +42,7 @@
 	{"key": "cntv-新闻","name": "🌎CCTV13|新闻频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv_new.js",  "jar": "./jar/my_FM1003.jar"},   
         {"key": "cntv-2","name": "🌎CCTV2|财经频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv2.js",  "jar": "./jar/my_FM1003.jar"},
         {"key": "cntv-4","name": "🌎CCTV4|国际频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv4.js",  "jar": "./jar/my_FM1003.jar"},
-	{"key": "cntv-9&10","name": "🌎CCTV9&10|纪录科教🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open9&10.js",  "jar": "./jar/my_FM1003.jar"},
+	{"key": "cntv-910","name": "🌎CCTV9&10|纪录科教🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open910.js",  "jar": "./jar/my_FM1003.jar"},
         {"key": "cntv-14","name": "🌎CCTV4|少儿频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv14.js",  "jar": "./jar/my_FM1003.jar"},    
 
 	{"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
