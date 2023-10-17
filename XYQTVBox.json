@@ -245,38 +245,7 @@
       "changeable": 1,
       "ext": "https://sk100.tv/api.php/app/"
     },
-
-
-     {
-      "key": "ikan6",
-      "name": "爱看┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---/"
-    },
     {
-      "key": "csp_xb_101影视",
-      "name": "101┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "http://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html"
-    },
-    {
-      "key": "zxzj",
-      "name": "在线┃xBiu",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
-    },
-
-
-    { 
       "key": "csp_XBPQ_JOJO",
       "name": "JOJO┃xBPQ",
       "type": 3,
@@ -312,8 +281,34 @@
         "分类": "短剧$20#电影$22#电视剧$21#动漫$23#综艺$24"
       }
     },
-
-   {
+    {
+      "key": "黑狐",
+      "name": "黑狐┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./XBPQ/黑狐.json"
+    },
+    {
+      "key": "星辰",
+      "name": "星辰┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./XBPQ/星辰影视.json"
+    },
+    {
+      "key": "云播",
+      "name": "云播┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./XBPQ/TVB云播.json"
+    },
+    {
       "key": "libviotop",
       "name": "蚂蚁┃xBPQ",
       "type": 3,
@@ -332,6 +327,58 @@
         "分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$30"
       }
     },
+    {
+      "key": "速搜",
+      "name": "速搜┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "./XBPQ/速搜.json"
+    },
+    {
+      "key": "看看",
+      "name": "剧看┃xBPQ",
+      "type": 3,
+      "playerType": "1",
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/剧看.json"
+    },
+    {
+      "key": "ikan6",
+      "name": "爱看┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://ikan6.vip/vodshow/{cateId}--------{catePg}---/"
+    },
+    {
+      "key": "csp_xb_101影视",
+      "name": "101┃xBiu",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html"
+    },
+    {
+      "key": "zxzj",
+      "name": "在线┃xBiu",
+      "type": 3,
+      //"api": "./catvod/zxzj_open.js",
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+     },
+
+    
+
+   
 	    
         {
             "key": "348",
