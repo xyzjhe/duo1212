@@ -270,17 +270,7 @@
       "ext": "./json/jianpian.json"
     },
 	  
-    {
-      "key": "獨播",
-      "name": "独播",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./json/duboku.json"
-    },
-
-    
+       
     {
       "key": "haiwaikan",
       "name": "海外看",
@@ -348,14 +338,7 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "量子",
-      "name": "量子|采集",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "changeable": 1
-    },
+    
     {
       "key": "櫻花",
       "name": "櫻花|动漫",
