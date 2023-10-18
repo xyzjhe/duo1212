@@ -1,15 +1,15 @@
 {
     "title": "花猫TV",
     "author": "香雅情",
-    "UserAgent":"Mozilla/5.0 (Linux; Android 11; Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-    "Referer":"",
-    "SUserAgent":"User-Agent$MOBILE_UA",
-    "homeContent":"0",
+    "UserAgent": "Mozilla/5.0 (Linux; Android 11; Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+    "Referer": "",
+    "SUserAgent": "User-Agent$MOBILE_UA",
+    "homeContent": "0",
     "firstpage": "1",
     "class_url": "http://www.huamaotv.com/list/{cateId}_{catePg}_desc__0_0___.html",
     "class_name": "电影&电视剧&综艺&动漫",
     "class_value": "1&2&3&4",
-    "filterdata":"",
+    "filterdata": "",
     "cat_YN_twice": "1",
     "cat_twice_pre": "class=\"stui-vodlist clearfix",
     "cat_twice_suf": "/ul>",
@@ -22,12 +22,12 @@
     "cat_prefix": "http://www.huamaotv.com",
     "cat_suffix": "",
     "search_url": "http://www.huamaotv.com/index.php?m=vod-search;post",
-    "sea_PtBody":"wd={wd}&submit=",
+    "sea_PtBody": "wd={wd}&submit=",
     "search_mode": "1",
     "jsonpic": "pic",
     "jsonname": "name",
     "jsonid": "id",
-    "jsonstitle":"",
+    "jsonstitle": "",
     "sea_YN_twice": "1",
     "sea_twice_pre": "class=\"stui-vodlist clearfix",
     "sea_twice_suf": "/ul>",
@@ -66,6 +66,5 @@
     "epi_reverse": "1",
     "epiurl_prefix": "http://www.huamaotv.com",
     "epiurl_suffix": "",
-    "Anal_MacPlayer":"2"
-    
+    "Anal_MacPlayer": "2"
 }

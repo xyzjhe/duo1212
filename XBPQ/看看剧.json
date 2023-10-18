@@ -10,7 +10,129 @@
   "主演": "主演：&&</div>",
   "简介": "introduction-content\">&&</span>",
   "线路数组": "data-toggle=&&</li>",
-  "线路标题": "\"tab\">&&</a>[不包含:线路1#线路2#线路3#][替换:FY线路>>无广告有4K#KKJ线路>>无告1080P#LZ线路>>广告1#FF线路>>广告2#YZ线路>>广告3]",
+  "线路标题": "\"tab\">&&</a>[不包含:线路1#线路2#线路3#]",
   "分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman#纪录片$jilupian",
-  "分类url": "https://kankanju.cc/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"
+  "分类url": "https://kankanju.cc/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+  "筛选": {
+    "1": [
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "时间",
+            "v": "time"
+          },
+          {
+            "n": "人气",
+            "v": "hits"
+          },
+          {
+            "n": "评分",
+            "v": "score"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "时间",
+            "v": "time"
+          },
+          {
+            "n": "人气",
+            "v": "hits"
+          },
+          {
+            "n": "评分",
+            "v": "score"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "时间",
+            "v": "time"
+          },
+          {
+            "n": "人气",
+            "v": "hits"
+          },
+          {
+            "n": "评分",
+            "v": "score"
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "时间",
+            "v": "time"
+          },
+          {
+            "n": "人气",
+            "v": "hits"
+          },
+          {
+            "n": "评分",
+            "v": "score"
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "时间",
+            "v": "time"
+          },
+          {
+            "n": "人气",
+            "v": "hits"
+          },
+          {
+            "n": "评分",
+            "v": "score"
+          }
+        ]
+      }
+    ]
+  }
 }
