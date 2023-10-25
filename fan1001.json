@@ -262,11 +262,6 @@
 {"key":"csp_聚短视频","name":"📽️聚短┃视频","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/laozou/dr_py/raw/branch/main/js/短视频.js","searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"有声小说js","name":"🎧有声┃小说","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/laozou/dr_py/raw/branch/main/js/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 
-//{"key":"贱贱","name":"🐭贱贱┃p2p","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/jp.js"},
-//{"key":"csp_Nmys","name":"🌾农民┃直连","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"changeable":1,"ext":"./json/nmys.json"},
-//{"key":"4KHDR","name":"🧲世界磁力┃慎用","type":3,"searchable":1,"quickSearch":1,"changeable":0,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/4khdr.js"},
-//{"key":"csp_XPath_企鹅体育","name":"🐧企鹅┃体育","type":3,"api":"csp_XPath","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./json/企鹅直播.json"},
-
 {"key":"csp_Nbys","name":"🛫泥巴┃飞","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_trj","name": "🛫唐人街┃飞","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"changeable":1},
 
