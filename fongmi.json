@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/myFM_1023.jar;md5;00cd4a85c190e03696dbd62406d89845",
+  "spider": "./jar/myFM_1025.jar;md5;ee1ecac57f09b0eb545a01e592ed2aae",
   
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -16,8 +16,7 @@
   
   "sites": [
 
-   {"key": "DoubanforTVBox", "name":"🪀┃豆瓣SP_forTVBox┃🪀", "type": 3, "api": "csp_DoubanForTVBox", "searchable": 1,"quickSearch": 1,"filterable": 0},  
-	  
+    
    {"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0}, 
 
    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
