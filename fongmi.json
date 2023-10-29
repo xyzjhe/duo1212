@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/myFM_1028b.jar;md5;622d48497adcfe325e0949fabf507c19",
+  "spider": "./jar/FM_custom_spider_1029.jar;md5;d0ae5fa6fb705a6c020f930a73f44714",
   
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -44,6 +44,24 @@
          "changeable": 0,
          "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
 	 },
+
+	{
+         "key": "新6V",
+         "name": "新6V",
+         "type": 3,
+         "api": "csp_Xb6v",
+         "searchable": 1,
+         "changeable": 0
+        },
+
+	{
+         "key": "酷狗",
+         "name": "酷狗",
+         "type": 3,
+         "api": "csp_Kugou",
+         "searchable": 0,
+         "changeable": 0
+        },
 
 	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
@@ -268,10 +286,62 @@
       "changeable": 1,
       "ext": "./json/jianpian.json"
     },
-	 
+
+     {
+      "key": "五五",
+      "name": "五五",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/555dy_open.js",
+      "searchable": 1,
+      "changeable": 1
+    },
+	  
+    {
+      "key": "haiwaikan",
+      "name": "海外看",
+      "type": 1,
+      "api": "https://haiwaikan.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "日本动漫",
+        "国产动漫",
+        "欧美动漫",
+        "国产剧",
+        "韩剧",
+        "日剧",
+        "台剧",
+        "泰剧",
+        "港剧",
+        "欧美剧",
+        "动画电影",
+        "韩国综艺",
+        "国产综艺",
+        "日本综艺",
+        "欧美综艺",
+        "冒险片",
+        "剧情片",
+        "动作片",
+        "同性片",
+        "喜剧片",
+        "奇幻片",
+        "恐怖片",
+        "悬疑片",
+        "惊悚片",
+        "战争片",
+        "歌舞片",
+        "灾难片",
+        "爱情片",
+        "犯罪片",
+        "科幻片",
+        "纪录片",
+        "经典片"
+      ]
+    },
+ 
     {
       "key": "暴風",
-      "name": "暴风|采集",
+      "name": "暴風",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -279,9 +349,25 @@
     },
     {
       "key": "索尼",
-      "name": "索尼|采集 ",
+      "name": "索尼 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快帆",
+      "name": "快帆",
+      "type": 1,
+      "api": "https://api.kuaifan.tv/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "量子",
+      "name": "量子",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1
     },
