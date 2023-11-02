@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FM_custom_spider_1031.jar;md5;8aa91b90065d8517ba322655bdd2127b",
+  "spider": "./jar/FM_custom_spider_1031c.jar;md5;26c86cab3ddad78e17125b13527c4bc2",
   
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -7,7 +7,7 @@
            {
              "name":"直播",
              "type":0,
-             "url":"./live/live1031ok.txt",
+             "url":"./live/live_all_1101.txt",
              "playerType":1,
              "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
              "logo":"https://epg.112114.xyz/logo/{name}.png"
