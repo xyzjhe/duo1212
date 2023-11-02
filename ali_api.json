@@ -39,7 +39,7 @@
 	{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
   
 "lives":
-	[{"name":"live","type":0,"url":"https://gh-proxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+	[{"name":"live","type":0,"url":"./live/live_all_1101.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   
 "ijk":
 	[{"group":"软解码","options":
