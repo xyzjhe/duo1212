@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/FM_custom_spider_1031c.jar;md5;26c86cab3ddad78e17125b13527c4bc2",
+  "spider": "./jar/ZZG1103.jar;md5;9d8200aaf7f2bc527fd9ceab73ff4e21",
   
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -62,6 +62,66 @@
          "searchable": 0,
          "changeable": 0
         },
+
+	{
+            "key": "csp_SP360",
+            "name": "┃SP┃360影视",
+            "type": 3,
+            "api": "csp_SP360",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+			
+        },
+	{
+            "key": "csp_SP2345",
+            "name": "┃SP┃2345影视",
+            "type": 3,
+            "api": "csp_SP2345",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_qq",
+            "name": "┃SP┃腾讯视频",
+            "type": 3,
+            "api": "csp_qq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_iqiyi",
+            "name": "┃SP┃奇艺影视",
+            "type": 3,
+            "api": "csp_iqiyi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_mgtv",
+            "name": "┃SP┃芒果电影",
+            "type": 3,
+            "api": "csp_mgtv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+	{
+            "key": "csp-youku",
+            "name": "┃SP┃优酷电影",
+            "type": 3,
+            "api": "csp_youku",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+
+       
 
 	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
