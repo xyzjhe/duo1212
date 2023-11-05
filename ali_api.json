@@ -8,6 +8,16 @@
 	[{"key":"豆瓣","name":"云盘｜首页","type":3,"api":"csp_Douban","searchable":0},
 
          {
+            "key": "csp_SP2345",
+            "name": "🐕┃SP┃2345影视",
+            "type": 3,
+            "api": "csp_SP2345",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+         },
+    	 {
             "key": "csp_qq",
             "name": "🐧┃SP┃腾讯视频",
             "type": 3,
