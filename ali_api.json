@@ -5,7 +5,11 @@
 "wallpaper":"https://api.likepoems.com/img/bing",
   
 "sites":
-	[{"key":"豆瓣","name":"云盘｜首页","type":3,"api":"csp_Douban","searchable":0},
+	[
+		
+	{"key":"豆瓣","name":"云盘｜首页","type":3,"api":"csp_Douban","searchable":0},
+        {"key":"阿里云盘登录","name":"云盘｜登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/Tvbox/token.txt"},
+	
 
          {
             "key": "csp_SP2345",
@@ -15,7 +19,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925"  
          },
     	 {
             "key": "csp_qq",
@@ -24,7 +29,8 @@
             "api": "csp_qq",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
          },
          {
             "key": "csp_iqiyi",
@@ -33,7 +39,8 @@
             "api": "csp_iqiyi",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
           },
           {
             "key": "csp_mgtv",
@@ -42,7 +49,8 @@
             "api": "csp_mgtv",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
           },
 	  {
             "key": "csp-youku",
@@ -51,7 +59,8 @@
             "api": "csp_youku",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
           },
           {
             "key": "csp_SP360",
@@ -61,10 +70,11 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
 	  },
 		
-	{"key":"阿里云盘登录","name":"云盘｜登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/Tvbox/token.txt"},
+	
 	{"key":"玩偶弹幕","name":"弹幕｜玩偶","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"filter":"./json/wogg.json","token":"http://127.0.0.1:9978/file/TVBox/token.txt","danmu":true}},
 	{"key":"搜索弹幕","name":"弹幕｜搜索","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/Tvbox/token.txt","danmu":true}},
 	{"key":"七夜弹幕","name":"弹幕｜七夜","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/Tvbox/token.txt","danmu":true}},
