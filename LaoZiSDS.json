@@ -43,7 +43,7 @@
         "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
      },
 
-        {
+          {
             "key": "csp_SP2345",
             "name": "🐕┃SP┃2345影视",
             "type": 3,
@@ -52,7 +52,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
+         },
     	 {
             "key": "csp_qq",
             "name": "🐧┃SP┃腾讯视频",
@@ -61,8 +61,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
+         },
+         {
             "key": "csp_iqiyi",
             "name": "🥝┃SP┃奇艺影视",
             "type": 3,
@@ -70,8 +70,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
+          },
+          {
             "key": "csp_mgtv",
             "name": "🍋┃SP┃芒果电影",
             "type": 3,
@@ -79,8 +79,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-	{
+          },
+	  {
             "key": "csp-youku",
             "name": "👔┃SP┃优酷电影",
             "type": 3,
@@ -88,8 +88,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
+          },
+          {
             "key": "csp_SP360",
             "name": "🌐┃SP┃360影视",
             "type": 3,
@@ -98,12 +98,15 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-	 },
+	  },
        
         {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"py_cctv_full","name":"📺CCTV┃pyall🌎","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_full.py"},
         {"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
+
+	{"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
+        {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
 
 	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
@@ -115,19 +118,10 @@
         { "key": "js_相声小品","name": "🅱️┃哔哩js┃相声小品", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/相声小品.js"},
         { "key": "js_戏曲大全","name": "🅱️┃哔哩js┃戏曲大全", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/戏曲大全.js"},
 
-	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js", "jar": "./jar/my_FM1003.jar"},
-        {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js",  "jar": "./jar/my_FM1003.jar"},
-
-	{"key": "cntv-1","name": "🌎CCTV1|综合频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv1.js",  "jar": "./jar/my_FM1003.jar"},
-	{"key": "cntv-新闻","name": "🌎CCTV13|新闻频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv_new.js",  "jar": "./jar/my_FM1003.jar"},   
-        {"key": "cntv-2","name": "🌎CCTV2|财经频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv2.js",  "jar": "./jar/my_FM1003.jar"},
-        {"key": "cntv-4","name": "🌎CCTV4|国际频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv4.js",  "jar": "./jar/my_FM1003.jar"},
-	{"key": "cntv-910","name": "🌎CCTV9&10|纪录科教🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv910.js",  "jar": "./jar/my_FM1003.jar"},
-        {"key": "cntv-14","name": "🌎CCTV4|少儿频道🌎", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/cntv_open_cctv14.js",  "jar": "./jar/my_FM1003.jar"},    
+	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js"},
+        {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js"},
 
 	
-        {"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
-        {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
         
     {
       "key": "七夜",
