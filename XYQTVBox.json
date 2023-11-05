@@ -19,6 +19,54 @@
       	{"key":"豆瓣","name":"📺豆瓣热搜📺","type":3,"api":"csp_Douban","searchable": 1,"quickSearch": 1,"filterable": 0},
         {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 
+	{
+            "key": "csp_qq",
+            "name": "🐧┃SP┃腾讯视频",
+            "type": 3,
+            "api": "csp_qq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+         },
+         {
+            "key": "csp_iqiyi",
+            "name": "🥝┃SP┃奇艺影视",
+            "type": 3,
+            "api": "csp_iqiyi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+          },
+          {
+            "key": "csp_mgtv",
+            "name": "🍋┃SP┃芒果电影",
+            "type": 3,
+            "api": "csp_mgtv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+          },
+	  {
+            "key": "csp-youku",
+            "name": "👔┃SP┃优酷电影",
+            "type": 3,
+            "api": "csp_youku",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+          },
+          {
+            "key": "csp_SP360",
+            "name": "🌐┃SP┃360影视",
+            "type": 3,
+            "api": "csp_SP360",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+	  },    
+       
+
 	{"key":"gitcafe_php","name":"小纸条PHP|影视专用","type":1,"api":"http://tvbox.top/gitcafe.php","searchable":1,"quickSearch":1,"filterable":1},
 	
 	{"key":"阿里云盘登录","name":"阿里云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/Tvbox/token.txt"},
