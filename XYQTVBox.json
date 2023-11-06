@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider": "./jar/xyq_custom_spider1105d.jar;md5;e738b6e0ac96e5cf232862a64a53f1eb",
+    "spider": "./jar/myxyq_test_1106.jar;md5;5052983b810ea0d0de62996f69fa7e93",
 	
     "lives": [
            {
@@ -18,7 +18,7 @@
 
       	
 
-	/*{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1,"ext": "./json/douban.json"}, */
+	{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1}, 
 	    
         {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 
