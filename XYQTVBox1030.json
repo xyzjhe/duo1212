@@ -62,18 +62,16 @@
         {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
 
 	//网盘资源区
-        
-        {"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
+        {"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt$$$yingshi$$$abcd1234"},
         {"key":"csp_AliPS","name":"📀喵狸盘搜(搜索)","type":3,"api":"csp_AliPS","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
         {"key":"csp_Yisou","name":"📀易搜(搜索)","type":3,"api":"csp_Yisou","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
         {"key":"csp_Upyunso","name":"📀UP云搜(搜索)","type":3,"api":"csp_Upyunso","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
         
-        {"key": "csp_XYQHikerAL_云盘资源","name":"📀云盘资源(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源分享.json"},
+        {"key": "csp_XYQHikerAL_云盘资源分享","name":"📀云盘资源分享(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘资源分享.json"},
         {"key": "csp_XYQHikerAL_我的小站","name":"📀我的小站(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/我的小站.json"},
         {"key": "csp_XYQHikerAL_阿里云盘网","name":"📀阿里云盘(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/阿里云盘网.json"},
-        {"key": "csp_XYQHikerAL_豆豆飞","name":"📀豆豆飞(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/豆豆飞.json"},
-        {"key": "csp_XYQHiker_土拨鼠搜索","name":"📀土拨鼠(搜索)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土拨鼠搜索.json"},
-        
+	    
+	{"key": "csp_XYQHiker_DOVX搜索","name":"📀DOVX(搜索)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"},
         {"key": "csp_XYQHiker_盘搜索","name":"📀盘搜索(搜索)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/盘搜索.json"},
         {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 
@@ -113,91 +111,7 @@
        {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
        {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
        {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
-       
-       {"key":"me_qq","name":"🐧┃腾讯视频PHP┃test1", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/qq","searchable":1,"quickSearch":1, "filterable":1},
-       {"key":"me_iqiyi","name":"🥝┃爱奇艺PHP┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/iqiyi","searchable":1,"quickSearch":1, "filterable":1},
-       {"key":"me_sohu","name":"🐶┃搜狐视频PHP┃test", "type": 1,"playerType": 2,"api": "http://tvbox-1-g5221611.deta.app/vod/sohu","searchable": 1,"quickSearch": 1 },
-       {"key":"me_360","name":"🌏┃360影视PHP┃test", "type":1,"playerType": 2,"api":"http://tvbox-1-g5221611.deta.app/vod/360kan","searchable":1,"quickSearch":1, "filterable":1},
-       {"key":"me_qq2","name":"🐧┃腾讯视频PHP┃test2","type":1,"api":"http://tvbox.top/qq.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
-
-       {"key":"腾讯资源","name":"️🐧腾讯资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":[ "国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
-       {"key": "芒果资源","name":"️🥭芒果资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/mgtv/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
-       {"key": "爱奇艺资源","name":"️🥝爱奇艺资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
-       {"key": "优酷资源","name":"️👔优酷资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
-       {"key": "搜狐资源","name":"️🦊搜狐资源┃cj","type": 1,"api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories":["国产剧","韩国剧","香港剧","台湾剧","欧美剧","动作片","科幻片","战争片","奇幻片","喜剧片","爱情片","恐怖片","犯罪片","悬疑片","惊悚片","剧情片","冒险片","记录片","综艺","动漫"]},
-
-	 
-       {
-         "key": "腾讯1",
-         "name": "🧒腾讯少儿",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2_0804.min.js",
-         "ext": "./drpy_js/js/腾讯少儿.js"
-        },
-        {
-         "key": "芒果1",
-         "name": "🧒芒果少儿",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2_0804.min.js",
-         "ext": "./drpy_js/js/忙果少儿.js"
-        },
-        { 
-         "key": "奇艺1",
-         "name": "🧒爱艺奇少儿",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2_0804.min.js",
-         "ext": "./drpy_js/js/爱艺奇少儿.js"
-        },
-        {
-         "key": "优酷1",
-         "name": "🧒优酷少儿",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2_0804.min.js",
-         "ext": "./drpy_js/js/优酷少儿.js"
-        },
-        {
-         "key": "童趣",
-         "name": "🧒童趣",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2_0804.min.js",
-         "ext": "./drpy_js/js/童趣.js"
-        },
-
-        {
-         "key": "csp_wogg_cli",
-         "name": "玩偶[T4]",
-         "type": 4,
-         "api": "http://home.jundie.top:9520/spider/csp_Wogg",
-         "searchable": 1,
-         "quickSearch": 1,
-         "filterable": 1,
-         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-         "timeout": 30
-        },
-        {
-         "key": "小纸条_cli",
-         "name": "纸条[T4]",
-         "type": 4,
-         "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
-         "searchable": 1,
-         "quickSearch": 1,
-         "filterable": 1,
-         "ext": "http://127.0.0.1:9978/file/tvbox/token.txt",
-         "timeout": 30
-        },
-        {
-         "key": "荐片_cli",
-         "name": "荐片[T4]",
-         "type": 4,
-         "api": "http://home.jundie.top:9520/spider/csp_JP",
-         "searchable": 1,
-         "quickSearch": 1,
-         "filterable": 1,
-         "timeout": 30
-	},	
-
-	
-        
+                  
         
         
         //磁力资源区
