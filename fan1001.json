@@ -1,6 +1,6 @@
 {
 	
-"spider":"./jar/fty1031.jar;md5;f4e31130882d034e4d097227e2c3b391",
+"spider":"./jar/fty1106.jar;md5;d65490382102d8e7d3bdbde44ca602f5",
 
 "lives":[{"name":"live","type":0,"url":"./live/iptv1103.txt","playerType":1,"ua": "okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
  
