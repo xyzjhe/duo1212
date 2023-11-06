@@ -31,6 +31,69 @@
         {"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvbox/token.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
+	{
+            "key": "csp_SP2345",
+            "name": "🐕┃SP┃2345影视",
+            "type": 3,
+            "api": "csp_SP2345",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925"  
+         },
+    	 {
+            "key": "csp_qq",
+            "name": "🐧┃SP┃腾讯视频",
+            "type": 3,
+            "api": "csp_qq",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+         },
+         {
+            "key": "csp_iqiyi",
+            "name": "🥝┃SP┃奇艺影视",
+            "type": 3,
+            "api": "csp_iqiyi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+          },
+          {
+            "key": "csp_mgtv",
+            "name": "🍋┃SP┃芒果电影",
+            "type": 3,
+            "api": "csp_mgtv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+          },
+	  {
+            "key": "csp-youku",
+            "name": "👔┃SP┃优酷电影",
+            "type": 3,
+            "api": "csp_youku",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+          },
+          {
+            "key": "csp_SP360",
+            "name": "🌐┃SP┃360影视",
+            "type": 3,
+            "api": "csp_SP360",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+	  },
+
         { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
         { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
