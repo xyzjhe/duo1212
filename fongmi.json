@@ -29,7 +29,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/token.txt",
+        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       }
     },
@@ -144,7 +144,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "易搜",
@@ -153,7 +153,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "雲搜",
@@ -162,7 +162,7 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "盤搜",
@@ -171,7 +171,7 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "紙條搜",
@@ -180,7 +180,7 @@
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt"
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
     },
     {
       "key": "盤搜索",
@@ -189,7 +189,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvbox/token.txt" 
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" 
     },
     {
       "key": "找資源",
@@ -198,7 +198,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt$$$test2$$$test2"
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$test2$$$test2"
     },
     
 
