@@ -103,8 +103,19 @@
 	  },
 
        
+"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
+        {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
+        {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
-	{ "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
+	
+        {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
+        {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
+        {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/奇珍异兽.js"},
+        {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
+        {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
+        {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
+
+        { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
         { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
         { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
         { "key": "js_哔哩纪录片1","name": "🅱️┃哔哩js┃哔哩纪录片1", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":  "./drpy_js/js/纪录片1.js"},
@@ -126,14 +137,39 @@
 
 	{"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"cctv","name":"📺央视大全┃sp🌎","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar": "./jar/hccx1104.jar;md5;13420282d772dc5b6e94d7316d7379a3"},
-	  
+	    
 	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
-	{"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
-	  
-        {"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
+        {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
+	
+	{"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
         {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
         {"key":"drpy_js_相声随身听","name":"相声随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/相声随身听.js","playerType":"2"},
         {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
+
+	{
+         "key": "drpy_js_蜻蜓FM",
+         "name": "蜻蜓FM(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/蜻蜓FM.js",
+         "playerType": "2"
+        },
+	{
+         "key": "drpy_js_博看听书",
+         "name": "博看听书(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/博看听书.js",
+         "playerType": "2"
+        },
+        {
+         "key": "drpy_js_喜马拉雅",
+         "name": "喜马拉雅(js)",
+         "type": 3,
+         "api": "./drpy_js/libs/drpy2.min.js",
+         "ext": "./drpy_js/js/喜马拉雅.js",
+         "playerType": "2"
+        },
 
 	
 	
@@ -200,46 +236,7 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$test2$$$test2"
     },
-    
-
-        {
-         "key": "drpy_js_蜻蜓FM",
-         "name": "蜻蜓FM(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/蜻蜓FM.js",
-         "playerType": "2"
-        },
-	{
-         "key": "drpy_js_博看听书",
-         "name": "博看听书(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/博看听书.js",
-         "playerType": "2"
-        },
-        {
-         "key": "drpy_js_喜马拉雅",
-         "name": "喜马拉雅(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/喜马拉雅.js",
-         "playerType": "2"
-        },
-	  
-        {"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
-        {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
-        {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
-
-       {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
-       {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
-       {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/奇珍异兽.js"},
-       {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
-       {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
-       {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
-       
-      {
-
+    {
       "key": "看球",
       "name": "看球",
       "type": 3,
@@ -250,27 +247,24 @@
         "type": "list"
       }
       },  
-	  
-	  
-	 {
-         "key": "新6V",
-         "name": "新6V",
-         "type": 3,
-         "api": "csp_Xb6v",
-         "searchable": 1,
-         "changeable": 0
-        },
+      {
+       "key": "新6V",
+       "name": "新6V",
+       "type": 3,
+       "api": "csp_Xb6v",
+       "searchable": 1,
+       "changeable": 0
+       },
 
-	{
-         "key": "酷狗",
-         "name": "酷狗",
-         "type": 3,
-         "api": "csp_Kugou",
-         "searchable": 0,
-         "changeable": 0
-        },  
-        
-    {
+       {
+        "key": "酷狗",
+        "name": "酷狗",
+        "type": 3,
+        "api": "csp_Kugou",
+        "searchable": 0,
+        "changeable": 0
+       },  
+     {
       "key": "賤賤",
       "name": "荐片",
       "type": 3,
@@ -279,8 +273,7 @@
       "changeable": 1,
       "ext": "./json/jianpian.json"
     },
-
-     {
+    {
       "key": "五五",
       "name": "五五",
       "type": 3,
@@ -288,7 +281,6 @@
       "searchable": 1,
       "changeable": 1
     },
-	  
     {
       "key": "haiwaikan",
       "name": "海外看",
@@ -331,10 +323,9 @@
         "经典片"
       ]
     },
- 
     {
       "key": "暴風",
-      "name": "暴風",
+      "name": "暴風|采集",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -342,7 +333,7 @@
     },
     {
       "key": "索尼",
-      "name": "索尼 ",
+      "name": "索尼|采集 ",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -350,7 +341,7 @@
     },
     {
       "key": "快帆",
-      "name": "快帆",
+      "name": "快帆|采集",
       "type": 1,
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
@@ -358,443 +349,12 @@
     },
     {
       "key": "量子",
-      "name": "量子",
+      "name": "量子|采集",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1
     },
-
-
-    {
-      "key": "kuaifan",
-      "name": "快帆(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://api.kuaifan.tv/api.php/provide/vod/at/json/",
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "海外剧",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "悬疑片",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "犯罪片",
-        "惊悚片",
-        "灾难片",
-        "家庭片",
-        "古装片",
-        "历史片",
-        "短片",
-        "记录片",
-        "动画片",
-        "日本动漫",
-        "欧美动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "suonizy",
-      "name": "索尼(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/json/",
-      "categories": [
-        "影视解说",
-        "国产剧",
-        "欧美剧",
-        "日剧",
-        "韩剧",
-        "海外剧",
-        "台剧",
-        "港剧",
-        "泰剧",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动画片",
-        "日韩动漫",
-        "欧美动漫",
-        "海外动漫",
-        "港台动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "1080zy",
-      "name": "1080(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://api.1080zyku.com/inc/api_mac10.php",
-      "categories": [
-        "影视",
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "海外剧",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "记录片",
-        "动画片",
-        "日韩动漫",
-        "欧美动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "搞笑",
-        "音乐",
-        "汽车"
-      ]
-    },
-    {
-      "key": "liangzi",
-      "name": "量子(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/json",
-      "categories": [
-        "电影解说",
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "海外剧",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "短剧",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "记录片",
-        "日韩动漫",
-        "欧美动漫",
-        "海外动漫",
-        "港台动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "足球",
-        "篮球",
-        "网球",
-        "斯诺克"
-      ]
-    },
-    {
-      "key": "bfzy",
-      "name": "暴风(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "http://app.bfzyapi.com/api.php/provide/vod/at/json",
-      "categories": [
-        "电影解说",
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "海外剧",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动漫片",
-        "动画片",
-        "日韩动漫",
-        "欧美动漫",
-        "海外动漫",
-        "港台动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "49zyw",
-      "name": "49(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://49zyw.com/api.php/provide/vod/at/json",
-      "categories": [
-        "电影解说",
-        "国产剧",
-        "欧美剧",
-        "日剧",
-        "韩国剧",
-        "海外据",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "悬疑片",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "犯罪片",
-        "奇幻片",
-        "其他片",
-        "动画片",
-        "日本动漫",
-        "欧美动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "jisu",
-      "name": "极速(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/at/json",
-      "categories": [
-        "内地剧",
-        "欧美剧",
-        "日剧",
-        "韩剧",
-        "台湾剧",
-        "香港剧",
-        "马泰剧",
-        "悬疑片",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "犯罪片",
-        "记录片",
-        "动画片",
-        "日本动漫",
-        "欧美动漫",
-        "中国动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "体育赛事"
-      ]
-    },
-    {
-      "key": "feifan",
-      "name": "非凡(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod/at/json",
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "海外剧",
-        "台湾剧",
-        "香港剧",
-        "泰国剧",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "记录片",
-        "动漫片",
-        "日韩动漫",
-        "欧美动漫",
-        "海外动漫",
-        "港台动漫",
-        "国产动漫",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "kuaikan-ap",
-      "name": "快看(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://kuaikan-api.com/api.php/provide/vod/at/json",
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "其他剧",
-        "港台剧",
-        "新马剧",
-        "泰剧",
-        "悬疑片",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "犯罪片",
-        "奇幻片",
-        "惊悚片",
-        "冒险片",
-        "灾难片",
-        "网络电影",
-        "纪录片",
-        "动画电影",
-        "日本动漫",
-        "欧美动漫",
-        "国产动漫",
-        "国产综艺",
-        "韩国综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "kuaiyunzy",
-      "name": "快云(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://www.kuaiyunzy.com/api.php/provide/vod/at/json",
-      "categories": [
-        "国产剧",
-        "欧美剧",
-        "日本剧",
-        "韩国剧",
-        "其他剧",
-        "新马剧",
-        "泰剧",
-        "悬疑片",
-        "喜剧片",
-        "动作片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "犯罪片",
-        "奇幻片",
-        "惊悚片",
-        "冒险片",
-        "灾难片",
-        "网络电影",
-        "纪录片",
-        "动画电影",
-        "日本动漫",
-        "欧美动漫",
-        "国产动漫",
-        "国产综艺",
-        "韩国综艺",
-        "港台综艺",
-        "欧美综艺"
-      ]
-    },
-    {
-      "key": "taopianapi",
-      "name": "淘片(采集)",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
-      "categories": [
-        "电视剧/国产剧",
-        "电视剧/欧美剧",
-        "电视剧/日本剧",
-        "电视剧/韩国剧",
-        "电视剧/海外剧",
-        "电视剧/台湾剧",
-        "电视剧/香港剧",
-        "电视剧/泰国剧",
-        "电影/悬疑片",
-        "电影/喜剧片",
-        "电影/动作片",
-        "电影/爱情片",
-        "电影/科幻片",
-        "电影/恐怖片",
-        "电影/剧情片",
-        "电影/战争片",
-        "电影/奇幻片",
-        "电影/冒险片",
-        "电影/惊悚片",
-        "电影/纪录片",
-        "电影/动画片",
-        "动漫/日本动漫",
-        "动漫/欧美动漫",
-        "动漫/海外动漫",
-        "动漫/国产动漫",
-        "综艺/大陆综艺",
-        "综艺/日韩综艺",
-        "综艺/港台综艺",
-        "综艺/欧美综艺",
-        "综艺/海外综艺"
-      ]
-    },
-
-	  
     {
       "key": "櫻花",
       "name": "櫻花|动漫",
@@ -845,7 +405,6 @@
       "changeable": 0,
       "ext": "./json/webdav.json"
     },
-
     {
       "key": "push_agent",
       "name": "推送",
@@ -854,7 +413,6 @@
       "searchable": 1,
       "changeable": 0
     },
-
     {
       "key": "應用商店",
       "name": "應用商店",
