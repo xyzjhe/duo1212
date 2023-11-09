@@ -20,7 +20,7 @@
 	{"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 
 	{"key":"阿里云盘登录","name":"阿里云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-	{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0}
+	
 	
         {"key":"玩偶哥哥","name":"云盘｜玩偶","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
         {"key":"Gitcafe","name":"云盘｜小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
@@ -235,8 +235,8 @@
 	{"key":"土拨鼠搜索","name":"云盘｜土拨鼠","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土拨鼠搜索.json"},
 	{"key":"豆豆飞搜索","name":"云盘｜豆豆飞","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/豆豆飞搜索.json"},
 	{"key":"阿里云盘网","name":"云盘｜云盘网","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/阿里云盘网.json"},
-	{"key":"云盘分享社","name":"云盘｜分享社","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/云盘分享社.json"},
-	{"key":"push_agent","name":"📨🌩推送🌩📨","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"changeable":0,"hide":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"}
+	{"key":"云盘分享社","name":"云盘｜分享社","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/云盘分享社.json"}
+	
 	
         ],
 	
