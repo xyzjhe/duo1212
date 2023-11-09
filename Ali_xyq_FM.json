@@ -24,9 +24,7 @@
 	{"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
         {"key":"drpy_js_新片场","name":"新片场┃新片[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/新片场.js"},
 	    
-	
-	
-        {"key":"Gitcafe","name":"⛅云盘★小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	{"key":"Gitcafe","name":"⛅云盘★小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"🌩️云盘★玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
 	{
