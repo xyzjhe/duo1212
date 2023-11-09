@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider": "./jar/xyq1107y.jar;md5;e25f0f6e0bfa76a83616512166cc50d3",
+    "spider": "./jar/spider_xyq_plus_1106.jar;md5;901ea6a29847aa6148284d51e85bcd5f",
 	
     "lives": [
            {
@@ -140,12 +140,12 @@
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
         {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
 
-       {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
-       {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
-       {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/奇珍异兽.js"},
-       {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
-       {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
-       {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
+        {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
+        {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
+        {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/奇珍异兽.js"},
+        {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
+        {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
+        {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
         
 	{"key":"云盘搜索","name":"云盘｜搜索","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/云盘搜索.json"},
 	{"key":"DOVX搜索","name":"云盘｜七夜","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"},
