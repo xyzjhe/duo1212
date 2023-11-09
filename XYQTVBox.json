@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider":"./jar/spider_xyq_plus_1106.jar",
+    "spider":"./jar/spider_xyq_plus_1106.jar;md5;901ea6a29847aa6148284d51e85bcd5f",
 	
     "lives": [
            {
