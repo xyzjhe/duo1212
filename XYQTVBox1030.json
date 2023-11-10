@@ -60,7 +60,7 @@
             "api": "csp_qq",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 
+            "filterable": 1
 	    
          },
          {
