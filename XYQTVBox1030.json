@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider": "./jar/custom_spider原画在前1107.jar;md5;7aae7698f24218c8255835dd6b47c853",
+    "spider": "./jar/my_xyq_test1110.jar",
 	
     "lives": [
         {
@@ -45,8 +45,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925"  
+            "filterable": 1
+	    
          },
     	 {
             "key": "csp_qq",
@@ -55,8 +55,8 @@
             "api": "csp_qq",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 
+	    
          },
          {
             "key": "csp_iqiyi",
@@ -65,8 +65,8 @@
             "api": "csp_iqiyi",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
           },
           {
             "key": "csp_mgtv",
@@ -75,8 +75,8 @@
             "api": "csp_mgtv",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
           },
 	  {
             "key": "csp-youku",
@@ -85,8 +85,8 @@
             "api": "csp_youku",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
           },
           {
             "key": "csp_SP360",
@@ -96,8 +96,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
 	  },
 
 	//网盘资源区
