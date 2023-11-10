@@ -1,6 +1,6 @@
 {
 	
-"spider":"./jar/fty1106.jar;md5;d65490382102d8e7d3bdbde44ca602f5",
+"spider":"./jar/fan1110.jar",
 
 "lives":[{"name":"live","type":0,"url":"./live/iptv1103.txt","playerType":1,"ua": "okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
  
@@ -25,8 +25,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925"  
+            "filterable": 1
+	    
          },
     	 {
             "key": "csp_qq",
@@ -35,8 +35,8 @@
             "api": "csp_qq",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
          },
          {
             "key": "csp_iqiyi",
@@ -45,8 +45,8 @@
             "api": "csp_iqiyi",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	     
           },
           {
             "key": "csp_mgtv",
@@ -55,8 +55,8 @@
             "api": "csp_mgtv",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	     
           },
 	  {
             "key": "csp-youku",
@@ -65,8 +65,8 @@
             "api": "csp_youku",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
           },
           {
             "key": "csp_SP360",
@@ -76,8 +76,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-	    "jar": "./jar/官源.jar;md5;d64263f8502dc0b8c2adfbd952804925" 
+            "filterable": 1
+	    
 	  },
 
         {"key":"YiSo","name":"😹易搜4K┃搜索","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+4k|auto|fhd"},
