@@ -27,8 +27,8 @@
     "sites": [
 
 	
-        {"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1,"ext": "./json/douban.json"}, 
-      //{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1}, 
+      //{"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1,"ext": "./json/douban.json"}, 
+        {"key": "Douban", "name":"🐱┃豆瓣SP_doudou┃🐱", "type": 3, "api": "csp_Douban", "searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1}, 
 	{"key":"阿里云盘登录","name":"阿里云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978//XYQTVBox/alitoken.txt"},
         {"key":"cctv","name":"📺央视｜大全","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json"},
 
