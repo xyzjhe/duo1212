@@ -35,7 +35,7 @@
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
 	    
 	    
-	{"key":"Gitcafe","name":"📀小纸条(搜索),"type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
 	{
