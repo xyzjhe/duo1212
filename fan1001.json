@@ -1,6 +1,6 @@
 {
 	
-"spider":"./jar/fan1116.jar;md5;0dd87e58cbbbee9379fb8018625940c4",
+"spider":"./jar/fan_plus_1118.jar",
 
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
@@ -78,7 +78,7 @@
 	     
           },
 	  {
-            "key": "csp-youku",
+            "key": "csp_youku",
             "name": "👔┃SP┃优酷电影",
             "type": 3,
             "api": "csp_youku",
