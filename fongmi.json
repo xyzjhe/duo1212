@@ -70,7 +70,7 @@
 
 	 {
             "key": "csp_SP2345",
-            "name": "🐕┃SP┃2345影视",
+            "name": "🐕┃2345影视┃SP",
             "type": 3,
             "api": "csp_SP2345",
 	    "playerType": 2,
@@ -80,7 +80,7 @@
          },
     	 {
             "key": "csp_qq",
-            "name": "🐧┃SP┃腾讯视频",
+            "name": "🐧┃腾讯视频┃SP",
             "type": 3,
             "api": "csp_qq",
             "searchable": 1,
@@ -89,7 +89,7 @@
          },
          {
             "key": "csp_iqiyi",
-            "name": "🥝┃SP┃奇艺影视",
+            "name": "🥝┃奇艺影视┃SP",
             "type": 3,
             "api": "csp_iqiyi",
             "searchable": 1,
@@ -98,7 +98,7 @@
           },
           {
             "key": "csp_mgtv",
-            "name": "🍋┃SP┃芒果电影",
+            "name": "🍋┃芒果电影┃SP",
             "type": 3,
             "api": "csp_mgtv",
             "searchable": 1,
@@ -107,7 +107,7 @@
           },
 	  {
             "key": "csp_youku",
-            "name": "👔┃SP┃优酷电影",
+            "name": "👔┃优酷电影┃SP",
             "type": 3,
             "api": "csp_youku",
             "searchable": 1,
@@ -116,7 +116,7 @@
           },
           {
             "key": "csp_SP360",
-            "name": "🌐┃SP┃360影视",
+            "name": "🌐┃360影视┃SP",
             "type": 3,
             "api": "csp_SP360",
 	    "playerType": 2,
