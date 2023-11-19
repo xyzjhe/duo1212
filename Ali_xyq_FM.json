@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-  "spider": "./jar/xyq_plus_1112.jar;md5;b6940d9485b6171f837a6d00270f5cc0",
+  "spider": "./jar/xyq_plus_1118.jar",
 	
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -69,9 +69,8 @@
             "api": "csp_qq",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/guan1117.jar"
-         },
+            "filterable": 1
+          },
          {
             "key": "csp_iqiyi",
             "name": "🥝┃SP┃奇艺影视",
@@ -108,7 +107,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-	  },
+	 },
 
 	{"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
         {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
