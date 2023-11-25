@@ -190,7 +190,7 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       },
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },       
    {
       "key": "七夜",
@@ -200,7 +200,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
     {
       "key": "易搜",
@@ -210,7 +210,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
     {
       "key": "雲搜",
@@ -220,7 +220,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
     {
       "key": "盤搜",
@@ -230,7 +230,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
     {
       "key": "紙條搜",
@@ -240,7 +240,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
     {
       "key": "盤搜索",
@@ -250,7 +250,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/myFM_test1108.jar" 
+      "jar":"./jar/FM_plus_1125.jar" 
     },
     {
       "key": "找資源",
@@ -260,7 +260,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzyali$$$555555",
-      "jar":"./jar/myFM_test1108.jar"
+      "jar":"./jar/FM_plus_1125.jar"
     },
 	    
    {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"}
@@ -268,7 +268,8 @@
    ],
 	
        "parses":
-	[//{"name":"Web聚合","type":3,"url":"Web"},
+	[
+	{"name":"Web聚合","type":3,"url":"Web"},
 	{"name":"聚合","type":3,"url":"Demo"},
 	{"name":"线路1","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
 	{"name":"线路2","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}},
@@ -284,7 +285,8 @@
 	{"name":"线路12","type":0,"url":"https://www.8090g.cn/?url="},
 	{"name":"线路13","type":0,"url":"https://jx.yangtu.top/?url="},
 	{"name":"线路14","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
-	{"name":"线路15","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="}],
+	{"name":"线路15","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="}
+	],
        "doh":[{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
        "rules":[
         {"host":"www.iesdouyin.com","rule":["playwm/?video_id="]},
