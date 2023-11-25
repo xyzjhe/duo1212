@@ -5,13 +5,13 @@
   "sites": [
     {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
     {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
-      "token": "http://127.0.0.1:9978/file/TV/ali_token.txt",
+      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
       "filter": "./json/wogg.json",
       "danmu" : true
     }},
     {"key":"玩偶表哥弹幕","name":"玩偶表哥弹幕|4K","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext": {
-      "token": "http://127.0.0.1:9978/file/TV/ali_token.txt",
-      "cookie": "http://127.0.0.1:9978/file/TV/quark_cookie.txt",
+      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+      "cookie": "http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt",
       "danmu" : true
     }},
     {"key":"bili","name":"哔哩哔哩","type": 3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1, "style": {
@@ -35,15 +35,15 @@
     {"key":"快帆","name":"快帆","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1},
     {"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1},
     {"key":"csp_QuPanSou","name":"趣盘搜┃搜索","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/TV/quark_cookie.txt", "danmu": true}},
-    {"key":"纸条","name":"纸条┃搜索","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"盘Se","name":"盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"找資源","name":"找資源┃搜索","type":3,"api":"csp_Zhaozy","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "username": "fanty", "password": "qqq111", "danmu": true}},
-    {"key":"七夜","name":"七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"盘搜","name":"盘搜┃搜索","type":3,"api":"csp_PanSou","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"易搜","name":"易搜┃搜索","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true, "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"}},
-    {"key":"Up云搜","name":"Up云搜┃搜索","type":3,"api":"csp_Upys","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"云盘4K","name":"云盘4K┃搜索","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "danmu": true}},
-    {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TV/ali_token.txt", "cookie": "http://127.0.0.1:9978/file/TV/quark_cookie.txt", "danmu": true}},
+    {"key":"纸条","name":"纸条┃搜索","type":3,"api":"csp_XiaoZhiTiao","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"盘Se","name":"盘Se┃搜索","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"找資源","name":"找資源┃搜索","type":3,"api":"csp_Zhaozy","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "username": "fanty", "password": "qqq111", "danmu": true}},
+    {"key":"七夜","name":"七夜┃搜索","type":3,"api":"csp_Dovx","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"盘搜","name":"盘搜┃搜索","type":3,"api":"csp_PanSou","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"易搜","name":"易搜┃搜索","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true, "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"}},
+    {"key":"Up云搜","name":"Up云搜┃搜索","type":3,"api":"csp_Upys","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"云盘4K","name":"云盘4K┃搜索","type":3,"api":"csp_Yunpan4k","searchable":1,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "danmu": true}},
+    {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt", "cookie": "http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt", "danmu": true}},
     {"key":"应用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":"https://fm.t4tv.hz.cz/json/market.json","style":{"type":"rect","ratio":1}}
   ],
 
