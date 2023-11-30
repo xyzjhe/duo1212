@@ -2,6 +2,15 @@
 	"spider":"./jar/pg.jar",
 	"sites":[
 		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"ext": "./json/douban.json"
+		},
+		{
 			"key": "酷狗",
 			"name": "酷狗",
 			"type": 3,
@@ -17,15 +26,6 @@
 			"searchable": 0,
 			"api": "./lib/live2vod.js",
 			"ext": "./lib/feimaolive.json"
-		},
-		{
-			"key": "豆瓣",
-			"name": "豆瓣",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"ext": "./json/douban.json"
 		},
 		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1},
 		{
