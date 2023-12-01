@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-  "spider": "./jar/XYQ_plus_1125.jar",
+  "spider": "./jar/XYQsp_plus_1130.jar",
 	
   "wallpaper":"https://api.likepoems.com/img/bing",
 
@@ -49,8 +49,8 @@
 	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
 	    
-	{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
-	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
+	{"key":"Gitcafe","name":"📀小纸条4K(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
+	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥4K(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
 	{
             "key": "csp_SP2345",
@@ -181,7 +181,7 @@
 
     {
       "key": "玩偶",
-      "name": "🎯玩偶哥哥|4K",
+      "name": "玩偶哥哥FM|4K",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -190,77 +190,77 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       },
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },       
    {
       "key": "七夜",
-      "name": "⚽七夜|4K",
+      "name": "七夜FM|4K",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },
     {
       "key": "易搜",
-      "name": "⚾易搜|4K",
+      "name": "易搜FM|4K",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },
     {
       "key": "雲搜",
-      "name": "🥎云搜|4K",
+      "name": "云搜FM|4K",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },
     {
       "key": "盤搜",
-      "name": "🏀盘搜|4K",
+      "name": "盘搜FM|4K",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jarr"
     },
     {
       "key": "紙條搜",
-      "name": "🏐纸条搜|4K",
+      "name": "纸条搜FM|4K",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },
     {
       "key": "盤搜索",
-      "name": "🎾盘搜索|4K",
+      "name": "盘搜索FM|4K",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FM_plus_1125.jar" 
+      "jar":"./jar/FMsp_plus_1201.jar" 
     },
     {
       "key": "找資源",
-      "name": "🥏找资源|4K",
+      "name": "找资源FM|4K",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzyali$$$555555",
-      "jar":"./jar/FM_plus_1125.jar"
+      "jar":"./jar/FMsp_plus_1201.jar"
     },
 	    
    {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"}
