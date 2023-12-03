@@ -41,7 +41,8 @@
             "api": "csp_QQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
          {
             "key": "csp_iqiyi",
@@ -50,7 +51,8 @@
             "api": "csp_Iqiyi",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_mgtv",
@@ -59,7 +61,8 @@
             "api": "csp_Mgtv",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
 	  {
             "key": "csp_youku",
@@ -68,7 +71,8 @@
             "api": "csp_YouKu",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_SP360",
