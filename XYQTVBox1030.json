@@ -64,7 +64,7 @@
 	{
             "key": "csp_Madou",
             "name": "MD┃MD影视┃",
-            "type": 3,
+            "type": 2,
             "api": "csp_Madou",
 	    "playerType": 2,
             "searchable": 1,
