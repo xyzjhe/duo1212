@@ -4,7 +4,34 @@
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
   "sites": [
-   {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
+   {"key":"豆瓣","name":"🕷┃豆瓣热搜┃🕷","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
+   {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
+	    
+   {"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
+   {"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
+
+   {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
+   {"key":"cctv","name":"📺央视大全┃sp🌎","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar":"./jar/cctv.jar"},
+	    
+   {"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
+   {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
+   
+    {
+      "key": "新浪资源",
+      "name": "新浪采集",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": "",
+      "categories": [
+        "大陆剧",
+        "动作片",
+        "动漫",
+        "综艺"
+      ]
+    },
+	  
    {
       "key": "api_新浪采集",
       "name": "💠┃新浪┃采集",
@@ -37,27 +64,8 @@
         "体育"
       ]
     },
-   {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
-      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "filter": "./json/wogg.json",
-      "danmu" : true
-    }},
-    {"key":"玩偶表哥弹幕","name":"玩偶表哥弹幕|4K","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext": {
-      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "cookie": "http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt",
-      "danmu" : true
-    }},
-    {"key":"bili","name":"哔哩哔哩","type": 3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1, "style": {
-      "type": "rect",
-      "ratio": 1.433
-    },
-      "ext": {
-        "type": "帕梅拉#太极拳#广场舞#健身#演唱会#电影#电视剧#动物世界#沙雕动画",
-        "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt"
-      }},
 
-        
-	  {
+    {
             "key": "csp_SP2345",
             "name": "🐕┃2345影视┃SP",
             "type": 3,
@@ -120,6 +128,28 @@
 	    "jar":"./jar/GUAN1201.jar"
 	  },
 
+	  
+   {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
+      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+      "filter": "./json/wogg.json",
+      "danmu" : true
+    }},
+    {"key":"玩偶表哥弹幕","name":"玩偶表哥弹幕|4K","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext": {
+      "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+      "cookie": "http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt",
+      "danmu" : true
+    }},
+    {"key":"bili","name":"哔哩哔哩","type": 3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1, "style": {
+      "type": "rect",
+      "ratio": 1.433
+    },
+      "ext": {
+        "type": "帕梅拉#太极拳#广场舞#健身#演唱会#电影#电视剧#动物世界#沙雕动画",
+        "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt"
+      }},
+
+        
+	 
 	 
     {"key":"sp360","name":"360影视|解析","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}},
     {"key":"荐片弹幕版","name":"荐片|弹幕","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}},
@@ -430,21 +460,7 @@
         "动漫"
       ]
     },
-    {
-      "key": "新浪资源",
-      "name": "新浪采集",
-      "type": 1,
-      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": "",
-      "categories": [
-        "大陆剧",
-        "动作片",
-        "动漫",
-        "综艺"
-      ]
-    },
+   
     {
       "key": "百度资源",
       "name": "百度采集",
