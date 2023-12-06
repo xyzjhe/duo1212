@@ -3,11 +3,12 @@
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
   "sites": [
-    {"key":"豆豆","name":"🐋┃豆瓣热搜┃🐋","type": 3, "api": "csp_Douban","searchable": 0,"quickSearch": 0,"filterable": 0},
+	  
+    {"key":"豆瓣","name":🐋┃豆瓣热搜┃🐋","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 
-	{"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
-	{"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
+    {"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
+    {"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
 
 	{
          "key": "lf_p2p2_min",
@@ -24,7 +25,16 @@
          "ext": "./LuFei/lf_live.txt"
          },
 	
-       
+       {
+            "key": "csp_Madou",
+            "name": "MD┃MD影视┃",
+            "type": 3,
+            "api": "csp_madou",
+	    "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/madou9527.jar"
+	},
 	    
         {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"cctv","name":"📺央视大全┃sp🌎","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar":"./jar/cctv.jar"},
