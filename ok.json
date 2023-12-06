@@ -35,7 +35,7 @@
     {
             "key": "csp_Madou",
             "name": "💃┃MoDo影视┃💃",
-            "type": 1,
+            "type": 3,
             "api": "csp_Madou",
 	    "playUrl": "",
 	    "searchable": 1,
