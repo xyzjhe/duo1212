@@ -66,8 +66,7 @@
             "name": "MD┃MD影视┃",
             "type": 3,
             "api": "csp_madou",
-	    "playerType": 2,
-            "searchable": 1,
+	    "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
 	    "jar":"./jar/madou9527.jar"
