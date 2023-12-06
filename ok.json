@@ -5,10 +5,7 @@
   "sites": [
 	  
     {"key":"豆瓣","name":"🐋┃豆瓣热搜┃🐋","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
-
     {"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
-    {"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
 
 	{
          "key": "lf_p2p2_min",
@@ -25,34 +22,12 @@
          "ext": "./LuFei/lf_live.txt"
          },
 	
-       {
-            "key": "csp_Madou",
-            "name": "MD┃MD影视┃",
-            "type": 3,
-            "api": "csp_madou",
-	    "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-	    "jar":"./jar/madou9527.jar"
-	},
+      
 	    
         {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"cctv","name":"📺央视大全┃sp🌎","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar":"./jar/cctv.jar"},
 	    
-	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
-        {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
-
-	{"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
-        {"key":"drpy_js_爱看机器人2","name":"爱看|机器v2[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot2.js"},
-        {"key":"drpy_js_爱看机器人3","name":"爱看|机器v3[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/ikanbot3.js"},
-
-        {"key":"drpy_js_腾云驾雾","name":"🐧腾讯官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "./drpy_js/js/腾讯_new.js"},
-        {"key":"drpy_js_百忙无果","name":"🍋芒果官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/百忙无果.js"},
-        {"key":"drpy_js_奇珍异兽","name":"🥝爱奇艺官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/奇珍异兽.js"},
-        {"key":"drpy_js_优酷","name":"👔优酷官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/优酷.js"},
-        {"key":"drpy_js_菜狗","name":"🐕搜狐官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/菜狗.js"},
-        {"key":"drpy_js_360影视","name":"🌐360官源┃js","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext": "https://agit.ai/laozou/dr_py/raw/branch/main/js/360影视.js"},
-
+	
         
 	  
     {"key":"玩偶弹幕版","name":"玩偶哥哥弹幕|4K","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {
@@ -74,7 +49,18 @@
         "cookie": "http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt"
       }},
 
-         {
+        
+	  {
+            "key": "csp_Madou",
+            "name": "MD┃MD影视┃",
+            "type": 3,
+            "api": "csp_madou",
+	    "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/madou9527.jar"
+	  },
+	  {
             "key": "csp_SP2345",
             "name": "🐕┃2345影视┃SP",
             "type": 3,
@@ -137,49 +123,7 @@
 	    "jar":"./jar/GUAN1201.jar"
 	  },
 
-	  { "key": "js_我的哔哩","name": "🅱️┃哔哩js┃我的哔哩", "type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext": "./drpy_js/js/我的哔哩.js" },
-        { "key": "js_哔哩影视","name": "🅱️┃哔哩js┃哔哩影视", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable":1,"ext": "./drpy_js/js/哔哩影视.js" },
-        { "key": "js_哔哩直播","name": "🅱️┃哔哩js┃哔哩直播", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/哔哩直播.js"},
-        { "key": "js_哔哩纪录片1","name": "🅱️┃哔哩js┃哔哩纪录片1", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1,"ext":  "./drpy_js/js/纪录片1.js"},
-        { "key": "js_哔哩纪录片2","name": "🅱️┃哔哩js┃哔哩纪录片2", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/纪录片2.js"},
-        { "key": "js_教育大全1","name": "🅱️┃哔哩js┃哔哩教育1", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/教育大全1.js"},
-        { "key": "js_教育大全2","name": "🅱️┃哔哩js┃哔哩教育2", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/教育大全2.js"},
-        { "key": "js_相声小品","name": "🅱️┃哔哩js┃相声小品", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/相声小品.js"},
-        { "key": "js_戏曲大全","name": "🅱️┃哔哩js┃戏曲大全", "type": 3,"api":  "./drpy_js/libs/drpy2.min.js","searchable": 0, "quickSearch": 0, "filterable": 1, "ext": "./drpy_js/js/戏曲大全.js"},
-
-	{"key": "bili_mao1", "name": " 🅱️bilibili|maoJS🅱️", "type": 3,  "searchable": 1,  "changeable": 1, "api": "./cat/js/mybili_open.js"},
-        {"key": "bili_mao2","name": " 🐹bili小灯塔|maoJS🐹", "type": 3, "searchable": 1,  "changeable": 1,  "api": "./cat/js/bili_other.js"},
-
-	{"key":"好趣网","name":"好趣网(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/好趣网.js"},
-        {"key":"广播迷","name": "广播迷(js)","type": 3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/广播迷FM.js"},
-        {"key":"drpy_js_相声随身听","name":"相声随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/相声随身听.js","playerType":"2"},
-        {"key":"drpy_js_评书随身听","name":"评书随身听(js)","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/评书随身听.js","playerType":"2"},
-
-	{
-         "key": "drpy_js_蜻蜓FM",
-         "name": "蜻蜓FM(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/蜻蜓FM.js",
-         "playerType": "2"
-        },
-	{
-         "key": "drpy_js_博看听书",
-         "name": "博看听书(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/博看听书.js",
-         "playerType": "2"
-        },
-        {
-         "key": "drpy_js_喜马拉雅",
-         "name": "喜马拉雅(js)",
-         "type": 3,
-         "api": "./drpy_js/libs/drpy2.min.js",
-         "ext": "./drpy_js/js/喜马拉雅.js",
-         "playerType": "2"
-        },
-	  
+	 
     {"key":"sp360","name":"360影视|解析","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}},
     {"key":"荐片弹幕版","name":"荐片|弹幕","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}},
     {"key":"快手直播","name":"快手直播","type": 3,"api":"csp_KsLive","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433}},
