@@ -60,43 +60,48 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
     	 {
             "key": "csp_qq",
             "name": "🐧┃腾讯视频┃SP",
             "type": 3,
-            "api": "csp_qq",
+            "api": "csp_QQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
          {
             "key": "csp_iqiyi",
             "name": "🥝┃奇艺影视┃SP",
             "type": 3,
-            "api": "csp_iqiyi",
+            "api": "csp_IQIYI",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_mgtv",
             "name": "🍋┃芒果电影┃SP",
             "type": 3,
-            "api": "csp_mgtv",
+            "api": "csp_MGTV",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
 	  {
             "key": "csp_youku",
             "name": "👔┃优酷电影┃SP",
             "type": 3,
-            "api": "csp_youku",
+            "api": "csp_YOUKU",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_SP360",
@@ -106,7 +111,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
 	  },
 
 	{"key":"drpy_js_爱看机器人1","name":"爱看|机器v1[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/爱看机器人.js"},
