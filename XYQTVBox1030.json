@@ -60,6 +60,19 @@
 	{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
+	    
+	{
+            "key": "csp_Madou",
+            "name": "MD┃MD影视┃",
+            "type": 3,
+            "api": "csp_Madou",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/madou1205.jar"
+         },
+	    
 	{
             "key": "csp_SP2345",
             "name": "🐕┃2345影视┃SP",
@@ -68,43 +81,48 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
     	 {
             "key": "csp_qq",
             "name": "🐧┃腾讯视频┃SP",
             "type": 3,
-            "api": "csp_qq",
+            "api": "csp_QQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
          {
             "key": "csp_iqiyi",
             "name": "🥝┃奇艺影视┃SP",
             "type": 3,
-            "api": "csp_iqiyi",
+            "api": "csp_IQIYI",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_mgtv",
             "name": "🍋┃芒果电影┃SP",
             "type": 3,
-            "api": "csp_mgtv",
+            "api": "csp_MGTV",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
 	  {
             "key": "csp_youku",
             "name": "👔┃优酷电影┃SP",
             "type": 3,
-            "api": "csp_youku",
+            "api": "csp_YOUKU",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_SP360",
@@ -114,7 +132,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
 	  },
 
 	//网盘资源区
