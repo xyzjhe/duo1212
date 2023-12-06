@@ -65,11 +65,11 @@
             "key": "csp_Madou",
             "name": "MD┃MD影视┃",
             "type": 3,
-            "api": "csp_madou",
+            "api": "csp_Madou",
 	    "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-	    "jar":"./jar/madou9527.jar"
+	    "jar":"./jar/madou1205.jar"
 	},
 	    
 	{
