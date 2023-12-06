@@ -1,6 +1,6 @@
 {
 	
-"spider":"./jar/FANsp_plus_1202.jar",
+"spider":"./jar/fan1204.txt",
 
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
@@ -44,43 +44,48 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
     	 {
             "key": "csp_qq",
             "name": "🐧┃腾讯视频┃SP",
             "type": 3,
-            "api": "csp_qq",
+            "api": "csp_QQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
          },
          {
             "key": "csp_iqiyi",
             "name": "🥝┃奇艺影视┃SP",
             "type": 3,
-            "api": "csp_iqiyi",
+            "api": "csp_IQIYI",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_mgtv",
             "name": "🍋┃芒果电影┃SP",
             "type": 3,
-            "api": "csp_mgtv",
+            "api": "csp_MGTV",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
 	  {
             "key": "csp_youku",
             "name": "👔┃优酷电影┃SP",
             "type": 3,
-            "api": "csp_youku",
+            "api": "csp_YOUKU",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
           },
           {
             "key": "csp_SP360",
@@ -90,7 +95,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
 	  },
 
         {"key":"YiSo","name":"😹易搜4K┃搜索","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+auto|4k|fhd"},
