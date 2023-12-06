@@ -1,7 +1,7 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
 	
-    "spider":"./jar/XYQsp_plus_1206.jar",
+    "spider":"./jar/XYQsp_plus_1204.jar",
 	
     "lives": [
         {
@@ -69,7 +69,8 @@
 	    "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+	    "jar":"./jar/madou9527.jar"
 	},
 	    
 	{
