@@ -35,6 +35,57 @@
 	
 	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
 	{"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
+
+   {
+      "key": "新浪资源",
+      "name": "新浪采集",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": "",
+      "categories": [
+        "大陆剧",
+        "动作片",
+	"短剧",
+        "动漫",
+        "综艺"
+      ]
+    },
+
+    {
+      "key": "api_新浪采集",
+      "name": "💠┃新浪┃采集",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "playUrl": "",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+	"短剧",
+        "大陆剧",
+        "港澳剧",
+        "台湾剧",
+        "欧美剧",
+        "日剧",
+        "韩剧",
+        "泰剧",
+        "纪录片",
+        "动作片",
+        "战争片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "动漫",
+	"动漫电影",
+        "综艺",
+        "体育"
+	]
+    },
 	
 	{
             "key": "csp_SP2345",
@@ -231,6 +282,17 @@
 
 "parses":[
 {"name":"聚合","type":3,"url":"Demo"},
+    {"name":"解析0_yemu","type":0,"url":"https://www.yemu.xyz/?url="},
+    {"name":"解析1_xmflv", "type":0,"url":"https://jx.xmflv.cc/?url="},
+    {"name":"解析2_777", "type":0,"url":"https://jx.777jiexi.com/player/?url="},
+    {"name":"解析3_zui", "type":0,"url":"https://jx.zui.cm/?url="},
+    {"name":"解析4_2s0", "type":0,"url":"https://jx.2s0.cn/player/?url="},
+    {"name":"解析5_jsonplayer", "type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+    {"name":"解析6_8090g", "type":0,"url":"https://www.8090g.cn/?url="},
+    {"name":"解析7_jiexi", "type":0,"url":"https://api.jiexi.la/?url="},
+    {"name":"解析8_liang", "type":0,"url":"https://vip.lianfaka.com/vip/?url="},
+    {"name":"解析9_yeuu", "type":0,"url":"https://vip.yeyulingfeng.com/?url="},
+    {"name":"解析10_bitefu","type":0,"url":"https://tool.bitefu.net/video/?url="},
 {"name":"神秘的哥哥们","type":1,"url":"http://api.888484.xyz/jiexi/米太硬.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"]}},
 {"name":"公众号","type":1,"url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
 {"name":"免费分享","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}}
