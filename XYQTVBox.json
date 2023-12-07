@@ -61,37 +61,57 @@
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
 
 	    
-	{
-            "key": "csp_Madou",
-            "name": "💃┃MoDo影视┃💃",
-            "type": 3,
-            "api": "csp_Madou",
-	    "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-	    "categories": [
-                         "大陆剧",
-                         "港澳剧",
-                         "台湾剧",
-                         "欧美剧",
-                         "日剧",
-                         "韩剧",
-                         "泰剧",
-                         "纪录片",
-                         "动作片",
-                         "战争片",
-                         "喜剧片",
-                         "爱情片",
-                         "科幻片",
-                         "恐怖片",
-                         "剧情片",
-                         "伦理片",
-                         "动漫",
-                         "综艺",
-                         "体育"
-                         ],
-	   "jar":"./jar/madou1205.jar"
-	},
+    {
+      "key": "新浪资源",
+      "name": "新浪采集",
+      "type": 1,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": "",
+      "categories": [
+        "大陆剧",
+        "动作片",
+	"短剧",
+        "动漫",
+        "综艺"
+      ]
+    },
+
+    {
+      "key": "api_新浪采集",
+      "name": "💠┃新浪┃采集",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "playUrl": "",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+	"短剧",
+        "大陆剧",
+        "港澳剧",
+        "台湾剧",
+        "欧美剧",
+        "日剧",
+        "韩剧",
+        "泰剧",
+        "纪录片",
+        "动作片",
+        "战争片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "动漫",
+	"动漫电影",
+        "综艺",
+        "体育"
+	]
+    },
+	
 	    
 	{
             "key": "csp_SP2345",
