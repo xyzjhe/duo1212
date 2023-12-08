@@ -44,7 +44,7 @@
 
 		{
 		"key": "csp_search_Panda_pansearch",
-		"name": "🚢┃盘搜┃网盘",
+		"name": "🚢┃盘搜4K┃网盘",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": {
@@ -61,7 +61,7 @@
 	        }, 
 		{
 		"key": "csp_search_Panda_盘搜",
-		"name": "🚃┃盘搜┃网盘2",
+		"name": "🚃┃盘搜4K┃网盘2",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": {
@@ -77,7 +77,7 @@
 	        }, 
 		{
 		"key": "csp_search_Panda_找资源",
-		"name": "☠┃资源┃网盘",
+		"name": "☠┃找资源4K┃网盘",
 		"type": 3,
 		"api": "csp_Panda",
 		"ext": {
@@ -97,7 +97,7 @@
 	        }, 
 		{
 		"key": "csp_search_Panda_UP云搜",
-		"name": "🍒┃Up搜┃网盘",
+		"name": "🍒┃Up搜4K┃网盘",
 		"type": 3,
 		"api": "csp_UpYun",
 		"timeout": 30,
@@ -106,11 +106,75 @@
 	        }, 
 		{
 		"key": "csp_search_Panda_易搜",
-		"name": "🐷┃易搜┃网盘",
+		"name": "🐷┃易搜4K┃网盘",
 		"type": 3,
 		"api": "csp_YiSo",
 		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 	        }, 
+
+         {
+            "key": "csp_SP2345",
+            "name": "🐕┃2345影视┃SP",
+            "type": 3,
+            "api": "csp_SP2345",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+         },
+    	 {
+            "key": "csp_qq",
+            "name": "🐧┃腾讯视频┃SP",
+            "type": 3,
+            "api": "csp_QQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+         },
+         {
+            "key": "csp_iqiyi",
+            "name": "🥝┃奇艺影视┃SP",
+            "type": 3,
+            "api": "csp_IQIYI",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+          },
+          {
+            "key": "csp_mgtv",
+            "name": "🍋┃芒果电影┃SP",
+            "type": 3,
+            "api": "csp_MGTV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+          },
+	  {
+            "key": "csp_youku",
+            "name": "👔┃优酷电影┃SP",
+            "type": 3,
+            "api": "csp_YOUKU",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+          },
+          {
+            "key": "csp_SP360",
+            "name": "🌐┃360影视┃SP",
+            "type": 3,
+            "api": "csp_SP360",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/GUAN1201.jar"
+	  },
+		
 		{
 		"key": "drpy_哔哩",
 		"name": "🅱┃哔哩┃合集",
@@ -119,7 +183,6 @@
 		"playerType": 1,
 		"ext": "https://d.kstore.space/download/6296/js/B站.js"
 	        }, 
-		
 		{
 		"key": "alist",
 		"name": "🍰┃小鸭┃网盘",
