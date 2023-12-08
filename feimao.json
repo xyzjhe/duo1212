@@ -6,6 +6,19 @@
 	"sites": [
 
 		{"key":"drpy_js_豆瓣","name":"🅱豆瓣热播┃肥猫","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
+		{"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
+
+		{
+		"key": "csp_Panda_玩偶哥哥",
+		"name": "👲┃玩偶┃影视",
+		"api": "csp_Panda",
+		"type": 3,
+		"searchable": 1,
+		"playerType": 2,
+		"timeout": 30,
+		"changeable": 0,
+		"ext": "./json/玩偶表哥.json"
+	        }, 
 		
 		{
 		"key": "短剧one",
@@ -54,17 +67,7 @@
 		"searchable": 1,
 		"quickSearch": 1
 	        }, 
-		{
-		"key": "csp_Panda_玩偶哥哥",
-		"name": "👲┃玩偶┃影视",
-		"api": "csp_Panda",
-		"type": 3,
-		"searchable": 1,
-		"playerType": 2,
-		"timeout": 30,
-		"changeable": 0,
-		"ext": "http://dt.xn--yety82d.love/玩偶表哥.json"
-	        }, 
+		
 		{
 		"key": "小小",
 		"name": "😛┃小小┃影视",
@@ -305,7 +308,7 @@
 			"搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
 			"timeout": 30,
 			"changeable": 0,
-			"阿里token": ""
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		       }
 	        }, 
 		{
@@ -321,7 +324,7 @@
 			"搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
 			"timeout": 30,
 			"changeable": 0,
-			"阿里token": ""
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		        }
 	        }, 
 		{
@@ -341,7 +344,7 @@
 			"登录": "https://zhaoziyuan.me/logiu.html;post;username=***&password=***",
 			"timeout": 30,
 			"changeable": 0,
-			"阿里token": ""
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 		       }
 	        }, 
 		{
@@ -351,14 +354,14 @@
 		"api": "csp_UpYun",
 		"timeout": 30,
 		"changeable": 0,
-		"ext": ""
+		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 	        }, 
 		{
 		"key": "csp_search_Panda_易搜",
 		"name": "🐷┃易搜┃网盘",
 		"type": 3,
 		"api": "csp_YiSo",
-		"ext": ""
+		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 	        }, 
 		{
 		"key": "drpy_哔哩",
