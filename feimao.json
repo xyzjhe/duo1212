@@ -41,6 +41,85 @@
 		"api": "csp_Panda",
 		"ext": "分类url:http://web.zzdj.cc/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html,分类:快手$2#抖音$3#都市$4#古装$5#重生$6#逆袭$7#虐恋$8#萌宝$9#言情$10#穿越$11#战神$12#神医$13#赘婿$14#甜宠$15#其它$16#短剧$1"
 	        }, 
+
+		{
+		"key": "csp_search_Panda_pansearch",
+		"name": "🚢┃盘搜┃网盘",
+		"type": 3,
+		"api": "csp_Panda",
+		"ext": {
+			"数组": "flex flex-col items-start&&</div></div><div",
+			"标题": "名称：&&描述：",
+			"副标题": "发布时间：&&</p>",
+			"图片": "<img src=\"&&\"",
+			"链接": "href=\"&&\"",
+			"搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
+			"timeout": 30,
+			"changeable": 0,
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+		       }
+	        }, 
+		{
+		"key": "csp_search_Panda_盘搜",
+		"name": "🚃┃盘搜┃网盘2",
+		"type": 3,
+		"api": "csp_Panda",
+		"ext": {
+			"标题": "<span*>&&</div>",
+			"副标题": "时间:&&格式",
+			"图片": "thumb=\"&&\"",
+			"链接": "/cv/+href=\"/s/&&\"",
+			"搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
+			"timeout": 30,
+			"changeable": 0,
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+		        }
+	        }, 
+		{
+		"key": "csp_search_Panda_找资源",
+		"name": "☠┃资源┃网盘",
+		"type": 3,
+		"api": "csp_Panda",
+		"ext": {
+			"数组": "news_text&&</li>",
+			"标题": "<h3>&&</h3>",
+			"副标题": "时间：&&</p>",
+			"图片": "https://",
+			"链接": "/+href=\"&&\"",
+			"跳转数组": "</div>*<a&&</a>",
+			"跳转链接": "https://www.aliyundrive.com/s/+aliyundrive.com/s/&&\"",
+			"搜索url": "https://zhaoziyuan.me/so?filename={wd}&page=1;;ckrS5",
+			"登录": "https://zhaoziyuan.me/logiu.html;post;username=zzyali&password=555555",
+			"timeout": 30,
+			"changeable": 0,
+			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+		       }
+	        }, 
+		{
+		"key": "csp_search_Panda_UP云搜",
+		"name": "🍒┃Up搜┃网盘",
+		"type": 3,
+		"api": "csp_UpYun",
+		"timeout": 30,
+		"changeable": 0,
+		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	        }, 
+		{
+		"key": "csp_search_Panda_易搜",
+		"name": "🐷┃易搜┃网盘",
+		"type": 3,
+		"api": "csp_YiSo",
+		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	        }, 
+		{
+		"key": "drpy_哔哩",
+		"name": "🅱┃哔哩┃合集",
+		"type": 3,
+		"api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+		"playerType": 1,
+		"ext": "https://d.kstore.space/download/6296/js/B站.js"
+	        }, 
+		
 		{
 		"key": "alist",
 		"name": "🍰┃小鸭┃网盘",
@@ -294,83 +373,7 @@
 		         },
 		"ext": "https://d.kstore.space/download/6296/js/310直播.js"
 	        }, 
-		{
-		"key": "csp_search_Panda_pansearch",
-		"name": "🚢┃盘搜┃网盘",
-		"type": 3,
-		"api": "csp_Panda",
-		"ext": {
-			"数组": "flex flex-col items-start&&</div></div><div",
-			"标题": "名称：&&描述：",
-			"副标题": "发布时间：&&</p>",
-			"图片": "<img src=\"&&\"",
-			"链接": "href=\"&&\"",
-			"搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
-			"timeout": 30,
-			"changeable": 0,
-			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-		       }
-	        }, 
-		{
-		"key": "csp_search_Panda_盘搜",
-		"name": "🚃┃盘搜┃网盘2",
-		"type": 3,
-		"api": "csp_Panda",
-		"ext": {
-			"标题": "<span*>&&</div>",
-			"副标题": "时间:&&格式",
-			"图片": "thumb=\"&&\"",
-			"链接": "/cv/+href=\"/s/&&\"",
-			"搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
-			"timeout": 30,
-			"changeable": 0,
-			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-		        }
-	        }, 
-		{
-		"key": "csp_search_Panda_找资源",
-		"name": "☠┃资源┃网盘",
-		"type": 3,
-		"api": "csp_Panda",
-		"ext": {
-			"数组": "news_text&&</li>",
-			"标题": "<h3>&&</h3>",
-			"副标题": "时间：&&</p>",
-			"图片": "https://",
-			"链接": "/+href=\"&&\"",
-			"跳转数组": "</div>*<a&&</a>",
-			"跳转链接": "https://www.aliyundrive.com/s/+aliyundrive.com/s/&&\"",
-			"搜索url": "https://zhaoziyuan.me/so?filename={wd}&page=1;;ckrS5",
-			"登录": "https://zhaoziyuan.me/logiu.html;post;username=***&password=***",
-			"timeout": 30,
-			"changeable": 0,
-			"阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-		       }
-	        }, 
-		{
-		"key": "csp_search_Panda_UP云搜",
-		"name": "🍒┃Up搜┃网盘",
-		"type": 3,
-		"api": "csp_UpYun",
-		"timeout": 30,
-		"changeable": 0,
-		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-	        }, 
-		{
-		"key": "csp_search_Panda_易搜",
-		"name": "🐷┃易搜┃网盘",
-		"type": 3,
-		"api": "csp_YiSo",
-		"ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
-	        }, 
-		{
-		"key": "drpy_哔哩",
-		"name": "🅱┃哔哩┃合集",
-		"type": 3,
-		"api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
-		"playerType": 1,
-		"ext": "https://d.kstore.space/download/6296/js/B站.js"
-	        }, 
+		
 		{
 		"key": "儿童",
 		"name": "📚┃儿童┃启蒙",
