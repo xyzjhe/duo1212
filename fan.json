@@ -36,23 +36,7 @@
 	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
 	{"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
 
-   {
-      "key": "新浪资源",
-      "name": "新浪采集",
-      "type": 1,
-      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": "",
-      "categories": [
-        "大陆剧",
-        "动作片",
-	"短剧",
-        "动漫",
-        "综艺"
-      ]
-    },
-
+  
     {
       "key": "api_新浪采集",
       "name": "💠┃新浪┃采集",
