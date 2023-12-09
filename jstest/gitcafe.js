@@ -45,7 +45,7 @@ var rule = {
         VODS=videos
     `,
     一级:`js:
-        var gitcafecookie = ""
+        var gitcafecookie = "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         function get_result(){
             let videos=[];
             let url="https://gitcafe.net/tool/alipaper/";
