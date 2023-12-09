@@ -69,23 +69,6 @@
 	 },
 
     {
-      "key": "新浪资源",
-      "name": "新浪采集┃精选",
-      "type": 1,
-      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playUrl": "",
-      "categories": [
-        "大陆剧",
-        "动作片",
-	"短剧",
-        "动漫",
-        "综艺"
-      ]
-    },
-
-    {
       "key": "api_新浪采集",
       "name": "新浪采集┃大全",
       "type": 1,
