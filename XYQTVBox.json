@@ -41,7 +41,7 @@
 	    
         {"key":"py_cctv_集合","name":"央视|集合","type":3,"style":{"type":"rect","ratio":1.485},"api":"./py/py_cctv_new.py","searchable":1,"changeable":1,"ext":""},
         {"key":"py_Bilibili","name":"哔哩|影视","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
-	{"key":"py_m1905","name":"M1905┃电影网","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
+	{"key":"py_m1905_FM","name":"M1905┃电影网","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
 	    
 	{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 	{"key": "csp_XYQHikerAL_玩偶哥哥","name":"📀玩偶哥哥(优)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/玩偶哥哥.json"},
