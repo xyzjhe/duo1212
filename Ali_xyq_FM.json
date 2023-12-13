@@ -196,7 +196,7 @@
         "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
         "filter": "./json/wogg.json"
       },
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },       
    {
       "key": "七夜",
@@ -206,7 +206,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },
     {
       "key": "易搜",
@@ -216,7 +216,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },
     {
       "key": "雲搜",
@@ -226,7 +226,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },
     {
       "key": "盤搜",
@@ -236,7 +236,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jarr"
+      "jar":"./jar/FMsp1212.jar"
     },
     {
       "key": "紙條搜",
@@ -246,7 +246,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },
     {
       "key": "盤搜索",
@@ -256,7 +256,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar":"./jar/FMsp_plus_1201.jar" 
+      "jar":"./jar/FMsp1212.jar" 
     },
     {
       "key": "找資源",
@@ -266,7 +266,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzyali$$$555555",
-      "jar":"./jar/FMsp_plus_1201.jar"
+      "jar":"./jar/FMsp1212.jar"
     },
 	    
    {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","playerType":1,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"}
