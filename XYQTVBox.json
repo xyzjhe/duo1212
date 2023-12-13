@@ -36,6 +36,10 @@
 	    
         {"key":"py_cctv","name":"📺CCTV┃py🌎","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_cctv_new.py"},
         {"key":"cctv","name":"📺央视大全┃sp🌎","type":3,"api":"csp_CCTV","searchable":0,"filterable":0,"ext":"./json/央视大全.json","jar":"./jar/cctv.jar"},
+
+	{"key":"py_cctv_集合","name":"央视|集合","type":3,"style":{"type":"rect","ratio":1.485},"api":"./py/py_cctv_new.py","searchable":1,"changeable":1,"ext":""},
+        {"key":"py_Bilibili","name":"哔哩|影视","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
+	{"key":"py_m1905","name":"M1905┃电影网","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
 	    
 	{"key":"py_m1905","name":"🌎M1905┃py📺","type": 3,"api": "py_m1905","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/m1905.py"},
         {"key": "drpy_js_网易","name": " 🐭网易公版影像JS","type": 3,"api": "./drpy_js/libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 0, "ext": "./drpy_js/js/网易公版影像.js"}, 
