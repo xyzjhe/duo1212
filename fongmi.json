@@ -106,17 +106,7 @@
          "ext": { "json": "./json/bili_FM.json", "cookie": "http://127.0.0.1:9978/file/tvbox/bilicookie.txt" }
 	 },
 
-    {
-      "key": "api_新浪采集",
-      "name": "新浪采集┃大全",
-      "type": 1,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "playUrl": "",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
+        {"key": "api_新浪采集","name": "💠┃新浪┃采集","type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/","playUrl": "","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 0,"categories": [
 	"短剧",
         "大陆剧",
         "港澳剧",
@@ -138,7 +128,7 @@
         "综艺",
         "体育"
 	]
-    },
+        },
 
          {
             "key": "csp_SP2345",
