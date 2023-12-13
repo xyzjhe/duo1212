@@ -10,7 +10,9 @@
 	{"key":"drpy_js_豆瓣2","name":"🅱豆瓣[js]┃热搜","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/douban_list.js","searchable": 1,"quickSearch": 1,"filterable": 0},
 
 	{"key":"lf_js_search","name":"路飞┃搜索[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_search3_min.js"},
-        {"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
+        {"key":"lf_js_p2p","name":"路飞┃p2p[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./LuFei/lf_p2p_min.js"},
+        
+	{"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
 
 	{
          "key": "lf_p2p2_min",
@@ -39,18 +41,7 @@
         {"key":"py_Bilibili","name":"哔哩|影视","type":3,"api":"./py/py_bilibili1213.py","searchable":1,"changeable":1,"ext":""},
 	{"key":"py_m1905_FM","name":"M1905┃电影网","type": 3,"api": "./py/m1905.py","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": ""},
 
-  
-    {
-      "key": "api_新浪采集",
-      "name": "💠┃新浪┃采集",
-      "type": 1,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "playUrl": "",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
+        {"key": "api_新浪采集","name": "💠┃新浪┃采集","type": 1, "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/","playUrl": "","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 0,"categories": [
 	"短剧",
         "大陆剧",
         "港澳剧",
@@ -72,7 +63,7 @@
         "综艺",
         "体育"
 	]
-    },
+        },
 	
 	{
             "key": "csp_SP2345",
