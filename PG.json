@@ -11,18 +11,7 @@
 			"changeable": 1,
 			"ext": "./json/douban.json"
 		},
-
-                
-		
-		{
-			"key": "酷狗",
-			"name": "酷狗",
-			"type": 3,
-			"api": "csp_Kugou",
-			"searchable": 1,
-			"changeable": 0
-		},
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
+                {"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 		{
 			"key": "阿里夸克配置",
 			"name": "阿里夸克及彈幕配置",
@@ -52,6 +41,14 @@
 			"api": "csp_Duanju",
 			"searchable": 0,
 			"changeable": 1
+		},
+		{
+			"key": "酷狗",
+			"name": "酷狗",
+			"type": 3,
+			"api": "csp_Kugou",
+			"searchable": 1,
+			"changeable": 0
 		},
 		{"key":"drpy_js_磁力熊","name":"磁力熊[js]|索引","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","playerType":"1", "searchable":0, "quickSearch":0, "changeable":1},
 		{
