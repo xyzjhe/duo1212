@@ -25,6 +25,7 @@
 			},
 			"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.json"
 		},
+		{"key":"Funletu","name":"趣盘搜","type":3,"api":"csp_Funletu","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/XYQTVBox/token.json"},
 		{
 			"key": "直播转点播",
 			"name": "🐼️┃电视┃直播",
