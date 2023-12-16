@@ -144,6 +144,18 @@
 	    "jar":"./jar/真心真语1215.jar"
 	  },
 
+           {
+            "key": "csp_阿里云合集",
+            "name": "阿里云合集",
+            "type": 3,
+            "api": "csp_阿里云合集",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar"
+	  },
+	  
          {
             "key": "csp_SP2345",
             "name": "🐕┃2345影视┃SP",
