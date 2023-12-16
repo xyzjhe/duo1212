@@ -132,6 +132,19 @@
 	]
         },
 
+
+	   {
+            "key": "csp_QQ",
+            "name": "企鹅视频test",
+            "type": 3,
+            "api": "csp_QQ",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar"
+	  },
+
 	   {
             "key": "csp_磁力集合",
             "name": "磁力集合test",
@@ -153,7 +166,60 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-	    "jar":"./jar/真心真语1215.jar"
+	    "jar":"./jar/真心真语1215.jar",
+	    "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	  },
+
+	   {
+            "key": "csp_I4K",
+            "name": "I4K_test",
+            "type": 3,
+            "api": "csp_I4K",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar",
+	    "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	  },
+
+         {
+            "key": "csp_I4KVIP",
+            "name": "I4KVIP_test",
+            "type": 3,
+            "api": "csp_I4KVIP",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar",
+	    "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	  },
+
+           {
+            "key": "csp_DyyAli",
+            "name": "DyyAli_test",
+            "type": 3,
+            "api": "csp_DyyAli",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar",
+	    "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+	  },
+
+          {
+            "key": "csp_yyds",
+            "name": "yyds_test",
+            "type": 3,
+            "api": "csp_yyds",
+	    "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+	    "jar":"./jar/真心真语1215.jar",
+	    "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
 	  },
 	  
          {
