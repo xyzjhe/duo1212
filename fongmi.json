@@ -134,7 +134,7 @@
 
 	   {
             "key": "csp_磁力合集",
-            "name": "磁力合集",
+            "name": "磁力合集test",
             "type": 3,
             "api": "csp_磁力合集",
 	    "playerType": 2,
@@ -146,7 +146,7 @@
 
            {
             "key": "csp_阿里云合集",
-            "name": "阿里云合集",
+            "name": "阿里云合集test",
             "type": 3,
             "api": "csp_阿里云合集",
 	    "playerType": 2,
