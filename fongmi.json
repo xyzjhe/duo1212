@@ -17,6 +17,22 @@
       "filterable": 0,
       "api": "./LuFei/lf_search3_min.js"
     },
+
+    {
+            "key": "py_ali",
+            "name": "豆瓣首页+厂长搜索+三个阿里系搜索+推送",
+            "type": 3,
+            "api": "./py/py_ali.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+                "thread": "10"
+            }
+     },
+	  
     {
       "key": "lf_js_p2p_18+",
       "name": "磁力 | lf_p2p",
