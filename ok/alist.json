@@ -1,0 +1,9 @@
+{
+  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
+  "drives": [
+    {
+      "name": "小雅",
+      "server": "http://175.152.57.102:5678/"
+    }
+  ]
+}
