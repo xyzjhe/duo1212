@@ -1,6 +1,52 @@
 {
 	"spider":"./pg/pg.jar",
 	"sites":[
+
+
+
+    {
+      "key": "lf_js_search",
+      "name": "搜索 | lf_search",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "api": "./LuFei/lf_search3_min.js"
+    },
+    {
+      "key": "lf_js_p2p_18+",
+      "name": "磁力 | lf_p2p",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_p2p2_min.js"
+    },
+    {
+      "key": "lf_js_p2p",
+      "name": "磁力18+ | lf_p2p",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_p2p2_min.js",
+      "ext": "18+"
+    },
+    {
+      "key": "lf_js_ikanbot",
+      "name": "点播 | lf_ikanbot",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./LuFei/lf_ikanbot4_1_min.js"
+    },
+		
+		
 		{
 			"key": "酷狗",
 			"name": "酷狗",
@@ -85,47 +131,7 @@
 		},
 
 
-    {
-      "key": "lf_js_search",
-      "name": "搜索 | lf_search",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "api": "./LuFei/lf_search3_min.js"
-    },
-    {
-      "key": "lf_js_p2p_18+",
-      "name": "磁力 | lf_p2p",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js"
-    },
-    {
-      "key": "lf_js_p2p",
-      "name": "磁力18+ | lf_p2p",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_p2p2_min.js",
-      "ext": "18+"
-    },
-    {
-      "key": "lf_js_ikanbot",
-      "name": "点播 | lf_ikanbot",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./LuFei/lf_ikanbot4_1_min.js"
-    },
+   
 
     {"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
 	  
