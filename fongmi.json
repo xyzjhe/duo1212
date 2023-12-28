@@ -83,6 +83,16 @@
       }
     },
 
+    {
+      "key": "盤99",
+      "name": "🐂盘ali99|4K🐂",
+      "type": 3,
+      "api": "csp_Pan99",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+    },
+
 	{"key":"drpy_js_磁力熊搜索","name":"磁力熊┃搜索[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/磁力熊[磁].js","searchable":0,"quickSearch":0,"changeable":1},
 	  
         {"key":"drpy_js_新片场","name":"新片场┃新片[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/新片场.js"},
